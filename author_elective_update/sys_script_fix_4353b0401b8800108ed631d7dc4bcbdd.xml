@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Fix Choices Values</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var gr = new GlideRecord('sys_choice');
+gr.addEncodedQuery('name=x_0586_personal_ex_expenses');
+gr.query();
+gs.info(gr.getRowCount());
+while (gr.next()) {
+    var choiceValue = (gr.value.toString()).toLowerCase();
+    gr.value = choiceValue;
+    gr.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 14:45:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4353b0401b8800108ed631d7dc4bcbdd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Fix Choices Values</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_script_fix_4353b0401b8800108ed631d7dc4bcbdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 14:50:49</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_script_fix_4353b0401b8800108ed631d7dc4bcbdd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;Fix Choices Values&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[var gr = new GlideRecord('sys_choice');
+gr.addEncodedQuery('name=x_0586_personal_ex_expenses');
+gr.query();
+gs.info(gr.getRowCount());
+while (gr.next()) {
+    var choiceValue = (gr.value.toString()).toLowerCase();
+    gr.value = choiceValue;
+    gr.update();
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-17 14:45:15&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4353b0401b8800108ed631d7dc4bcbdd&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fix Choices Values&lt;/sys_name&gt;&lt;sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Personal Expense Manager"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_4353b0401b8800108ed631d7dc4bcbdd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-17 14:50:49&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1597469875</payload_hash>
+        <record_name>Fix Choices Values</record_name>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 14:50:49</sys_created_on>
+        <sys_id>f725b0c01b8800108ed631d7dc4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d3fb461c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 14:50:49</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>bf25b0c05b88001030d0d4093901283e</update_guid>
+        <update_guid_history>bf25b0c05b88001030d0d4093901283e:1597469875,d31530040c880010ad99105c36324211:-2121679754,10c4b800e78800107a52134c63939d3c:-1027217412,0f74b4cc5c480010c83b1504d62091fe:-934237498,0124b80039880010c35a6091b116efb9:-505132962,d6e3fc0c864800106499be1103f12edf:1081235214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 14:59:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>119f0e2f038d409e821c5c6881b148e1</sys_id>
+        <sys_metadata>4353b0401b8800108ed631d7dc4bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fix Choices Values</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sys_script_fix_4353b0401b8800108ed631d7dc4bcbdd</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_4353b0401b8800108ed631d7dc4bcbdd">f725b0c01b8800108ed631d7dc4bcb3f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 14:59:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

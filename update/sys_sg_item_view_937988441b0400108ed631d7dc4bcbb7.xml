@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Personal Expense Manager Expenses">5b7988441b0400108ed631d7dc4bcbb6</data_item>
+        <dependency_fields>amount,category,date,details,number,payment_method</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"Width":100,"Height":21,"Text":"","Font":{"Weight":"semibold","Size":13},"TextColor":"#293e40","BackgroundColor":"#f1f1f1","CornerRadius":2,"CellId":"amount","TextAlignment":"Center","MaxLines":1,"studio_template_field_id":"E1","Type":"Text"}],"Alignment":"Left","Orientation":"Vertical","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"Text":"","Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","CellId":"category","TextAlignment":"Right","MaxLines":1,"studio_template_field_id":"E2","Type":"Text"}],"Alignment":"Right","Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"Alignment":"Stretch","Orientation":"Horizontal","Distribution":"Equal","Type":"ViewGroup"},{"Text":"","Font":{"Weight":"regular","Size":18},"TextColor":"#293e40","CellId":"date","TextAlignment":"Left","MaxLines":2,"studio_template_field_id":"E3","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"studio_template_is_label":true,"Text":"Details","Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Margin":{"Right":8},"Type":"Text"},{"Width":22,"Height":22,"CornerRadius":11,"CellId":"number","Scaling":"Fill","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"Text":"","Font":{"Weight":"regular","Size":13},"TextColor":"#293e40","CellId":"details","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Type":"Text"}],"Alignment":"Center","Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"studio_template_is_label":true,"Text":"Payment Method","Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Margin":{"Right":8},"Type":"Text"},{"Text":"","Font":{"Weight":"regular","Size":13},"TextColor":"#293e40","CellId":"payment_method","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Type":"Text"}],"Alignment":"Center","Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Alignment":"Left","Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Alignment":"Stretch","Orientation":"Vertical","Distribution":"Auto","Margin":{"Top":17,"Bottom":15},"Type":"ViewGroup"}</item_view_json>
+        <name>Expenses List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:39:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>937988441b0400108ed631d7dc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expenses List Screen Item View</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_sg_item_view_937988441b0400108ed631d7dc4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 11:39:54</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

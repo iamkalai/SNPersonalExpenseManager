@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA New Tab 2">841c910c1bcc00108ed631d7dc4bcba6</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2019-09-18 17:04:52">57e15dd41b8800108ed631d7dc4bcb9b</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 11:34:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>93e15dd41b8800108ed631d7dc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>841c910c1bcc00108ed631d7dc4bcba6</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_93e15dd41b8800108ed631d7dc4bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 11:34:52</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_grid_canvas_pane_93e15dd41b8800108ed631d7dc4bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA New Tab 2">841c910c1bcc00108ed631d7dc4bcba6</grid_canvas><height>10</height><portal_widget display_value="Created 2019-09-18 17:04:52">57e15dd41b8800108ed631d7dc4bcb9b</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-18 11:34:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>93e15dd41b8800108ed631d7dc4bcb9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>841c910c1bcc00108ed631d7dc4bcba6</sys_name><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sys_grid_canvas_pane_93e15dd41b8800108ed631d7dc4bcb9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-18 11:34:52</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>530755908</payload_hash>
+        <record_name>841c910c1bcc00108ed631d7dc4bcba6</record_name>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 11:34:52</sys_created_on>
+        <sys_id>d7e15dd41b8800108ed631d7dc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d44275ae20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 11:34:52</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>dfe15dd45388001036bd4f815041399d</update_guid>
+        <update_guid_history>dfe15dd45388001036bd4f815041399d:530755908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 11:34:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>7954dc81f0fb4996a940ea328e42a641</sys_id>
+        <sys_metadata>93e15dd41b8800108ed631d7dc4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>841c910c1bcc00108ed631d7dc4bcba6</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_93e15dd41b8800108ed631d7dc4bcb9d</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_93e15dd41b8800108ed631d7dc4bcb9d">d7e15dd41b8800108ed631d7dc4bcb9e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 11:34:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

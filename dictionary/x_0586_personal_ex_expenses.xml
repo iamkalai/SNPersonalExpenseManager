@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Expenses" max_length="40" name="x_0586_personal_ex_expenses" sizeclass="8443" type="collection">
+        <element label="Amount" max_length="15" name="amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="personal" dependent="type" dependent_on_field="type" label="Category" max_length="40" name="category" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="expense" inactive_on_update="false" label="Automobile" value="automobile"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Business" value="business"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Entertainment" value="entertainment"/>
+                <element dependent_value="savings" inactive_on_update="false" label="ETF" value="etf"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Family" value="family"/>
+                <element dependent_value="savings" inactive_on_update="false" label="FD" value="fd"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Food" value="food"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Health" value="health"/>
+                <element dependent_value="savings" inactive_on_update="false" label="Insurance" value="insurance"/>
+                <element dependent_value="income" inactive_on_update="false" label="Interest" value="interest"/>
+                <element dependent_value="savings" inactive_on_update="false" label="Jewel" value="jewel"/>
+                <element dependent_value="savings" inactive_on_update="false" label="Mutual Fund" value="mutual_fund"/>
+                <element dependent_value="savings" inactive_on_update="false" label="NPS" value="nps"/>
+                <element dependent_value="savings" inactive_on_update="false" label="NSC" value="nsc"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Office" value="office"/>
+                <element dependent_value="income" inactive_on_update="false" label="Online" value="online"/>
+                <element dependent_value="income" inactive_on_update="false" label="Other" value="other"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Other" value="other"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Personal" value="personal"/>
+                <element dependent_value="savings" inactive_on_update="false" label="PPF" value="ppf"/>
+                <element dependent_value="income" inactive_on_update="false" label="Salary" value="salary"/>
+                <element dependent_value="savings" inactive_on_update="false" label="Smallcase" value="smallcase"/>
+                <element dependent_value="income" inactive_on_update="false" label="Stocks" value="stocks"/>
+                <element dependent_value="savings" inactive_on_update="false" label="Stocks" value="stocks"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Tax" value="tax"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Travel" value="travel"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Utilities" value="utilities"/>
+                <element dependent_value="expense" inactive_on_update="false" label="Vacation" value="vacation"/>
+                <element dependent_value="debt" inactive_on_update="false" label="Lend" sequence="0" value="lend"/>
+                <element dependent_value="debt" inactive_on_update="false" label="Borrow" sequence="1" value="borrow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="40" name="details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="credit" label="Payment Method" max_length="40" name="payment_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="Check" sequence="1" value="check"/>
+                <element inactive_on_update="false" label="Credit Card" sequence="2" value="credit"/>
+                <element inactive_on_update="false" label="Debit Card" sequence="3" value="debit"/>
+                <element inactive_on_update="false" label="Electronic Transfer" sequence="4" value="electronic"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cleared" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cleared" value="cleared"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="online" inactive_on_update="false" label="App" value="app"/>
+                <element dependent_value="interest" inactive_on_update="false" label="Bank" value="bank"/>
+                <element dependent_value="stocks" inactive_on_update="false" label="Dividend" value="dividend"/>
+                <element dependent_value="salary" inactive_on_update="false" label="DTCC" value="dtcc"/>
+                <element dependent_value="salary" inactive_on_update="false" label="IGATE" value="igate"/>
+                <element dependent_value="interest" inactive_on_update="false" label="NSC" value="nsc"/>
+                <element dependent_value="other" inactive_on_update="false" label="Other" value="other"/>
+                <element dependent_value="salary" inactive_on_update="false" label="Part Time" value="part_time"/>
+                <element dependent_value="other" inactive_on_update="false" label="Refund" value="refund"/>
+                <element dependent_value="stocks" inactive_on_update="false" label="Trading" value="trading"/>
+                <element dependent_value="other" inactive_on_update="false" label="Training" value="training"/>
+                <element dependent_value="food" inactive_on_update="false" label="All Food" sequence="0" value="all_food"/>
+                <element dependent_value="business" inactive_on_update="false" label="App" sequence="0" value="app"/>
+                <element dependent_value="tax" inactive_on_update="false" label="Banking Tax" sequence="0" value="banking_tax"/>
+                <element dependent_value="food" inactive_on_update="false" label="Breakfast" sequence="0" value="breakfast"/>
+                <element dependent_value="office" inactive_on_update="false" label="Certification" sequence="0" value="certification"/>
+                <element dependent_value="food" inactive_on_update="false" label="Dinner" sequence="0" value="dinner"/>
+                <element dependent_value="health" inactive_on_update="false" label="Doctor" sequence="0" value="doctor"/>
+                <element dependent_value="other" inactive_on_update="false" label="Donation" sequence="0" value="donation"/>
+                <element dependent_value="family" inactive_on_update="false" label="DTH Recharge" sequence="0" value="dth_recharge"/>
+                <element dependent_value="family" inactive_on_update="false" label="EB Bill" sequence="0" value="eb_bill"/>
+                <element dependent_value="health" inactive_on_update="false" label="Eye Care" sequence="0" value="eye_care"/>
+                <element dependent_value="food" inactive_on_update="false" label="Fruits" sequence="0" value="fruits"/>
+                <element dependent_value="automobile" inactive_on_update="false" label="Fuel" sequence="0" value="fuel"/>
+                <element dependent_value="entertainment" inactive_on_update="false" label="Game" sequence="0" value="game"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Gift" sequence="0" value="gift"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Grocery" sequence="0" value="grocery"/>
+                <element dependent_value="family" inactive_on_update="false" label="Grocery" sequence="0" value="grocery"/>
+                <element dependent_value="health" inactive_on_update="false" label="Gym" sequence="0" value="gym"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Home" sequence="0" value="home"/>
+                <element dependent_value="family" inactive_on_update="false" label="Home Maintenance" sequence="0" value="home_maintenance"/>
+                <element dependent_value="family" inactive_on_update="false" label="Household Items" sequence="0" value="household_items"/>
+                <element dependent_value="tax" inactive_on_update="false" label="Income Tax" sequence="0" value="income_tax"/>
+                <element dependent_value="utilities" inactive_on_update="false" label="Internet" sequence="0" value="internet"/>
+                <element dependent_value="food" inactive_on_update="false" label="Juice" sequence="0" value="juice"/>
+                <element dependent_value="automobile" inactive_on_update="false" label="License" sequence="0" value="license"/>
+                <element dependent_value="food" inactive_on_update="false" label="Lunch" sequence="0" value="lunch"/>
+                <element dependent_value="health" inactive_on_update="false" label="Medical" sequence="0" value="medical"/>
+                <element dependent_value="entertainment" inactive_on_update="false" label="Movies" sequence="0" value="movies"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Office" sequence="0" value="office"/>
+                <element dependent_value="tax" inactive_on_update="false" label="Other" sequence="0" value="other"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Other" sequence="0" value="other"/>
+                <element dependent_value="health" inactive_on_update="false" label="Other" sequence="0" value="other"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Other" sequence="0" value="other"/>
+                <element dependent_value="office" inactive_on_update="false" label="Other" sequence="0" value="other"/>
+                <element dependent_value="entertainment" inactive_on_update="false" label="Outing" sequence="0" value="outing"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Personal Care" sequence="0" value="personal_care"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Purchase" sequence="0" value="purchase"/>
+                <element dependent_value="utilities" inactive_on_update="false" label="Recharge" sequence="0" value="recharge"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Rent" sequence="0" value="rent"/>
+                <element dependent_value="food" inactive_on_update="false" label="Snack" sequence="0" value="snack"/>
+                <element dependent_value="office" inactive_on_update="false" label="Stationery" sequence="0" value="stationery"/>
+                <element dependent_value="tax" inactive_on_update="false" label="Stock Charges" sequence="0" value="stock_charges"/>
+                <element dependent_value="entertainment" inactive_on_update="false" label="Swimming" sequence="0" value="swimming"/>
+                <element dependent_value="food" inactive_on_update="false" label="Tea/Coffee" sequence="0" value="tea_coffee"/>
+                <element dependent_value="other" inactive_on_update="false" label="Temple" sequence="0" value="temple"/>
+                <element dependent_value="business" inactive_on_update="false" label="Trading Loss" sequence="0" value="trading_loss"/>
+                <element dependent_value="vacation" inactive_on_update="false" label="Transport" sequence="0" value="transport"/>
+                <element dependent_value="personal" inactive_on_update="false" label="Treat" sequence="0" value="treat"/>
+                <element dependent_value="vacation" inactive_on_update="false" label="Trip" sequence="0" value="trip"/>
+                <element dependent_value="utilities" inactive_on_update="false" label="Wallet" sequence="0" value="wallet"/>
+                <element dependent_value="food" inactive_on_update="false" label="Water" sequence="0" value="water"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="expense" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Debt" sequence="0" value="debt"/>
+                <element inactive_on_update="false" label="Expense" sequence="0" value="expense"/>
+                <element inactive_on_update="false" label="Income" sequence="0" value="income"/>
+                <element inactive_on_update="false" label="Savings" sequence="0" value="savings"/>
+            </choice>
+        </element>
+    </element>
+</database>

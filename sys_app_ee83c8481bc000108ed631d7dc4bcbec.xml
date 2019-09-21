@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
+        <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_category>none</license_category>
+        <license_model>none</license_model>
+        <logo>cb8340c01b0000108ed631d7dc4bcb6b</logo>
+        <menu/>
+        <name>Personal Expense Manager</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_0586_personal_ex</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>Manage your personal expenses</short_description>
+        <source>x_0586_personal_ex</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:13:55</sys_created_on>
+        <sys_id>ee83c8481bc000108ed631d7dc4bcbec</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 12:00:08</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_0586_personal_ex.personal_expense_manager_user" name="x_0586_personal_ex.personal_expense_manager_user">58d340c01b0000108ed631d7dc4bcb6f</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo.png</file_name>
+        <hash>d676b14f588d42d75a13c7baec0f38d1cfdfe407f437f81080ca994cf41e3095</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2743</size_bytes>
+        <size_compressed>2079</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:13:57</sys_created_on>
+        <sys_id>cb8340c01b0000108ed631d7dc4bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-17 11:13:58</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>ee83c8481bc000108ed631d7dc4bcbec</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo.png" sys_id="cb8340c01b0000108ed631d7dc4bcb6b">cb8340c01b0000108ed631d7dc4bcb6b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:13:57</sys_created_on>
+        <sys_id>0f8340c01b0000108ed631d7dc4bcb6b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2760</length>
+        <position>1</position>
+        <sys_attachment display_value="logo.png" sys_id="cb8340c01b0000108ed631d7dc4bcb6b">cb8340c01b0000108ed631d7dc4bcb6b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:13:57</sys_created_on>
+        <sys_id>8f8340c01b0000108ed631d7dc4bcb6b</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>Personal Expense Manager - Expense (Expenses)</display>
+        <filter table="x_0586_personal_ex_expenses">type=expense<item display_value="Expense" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="expense"/>
+        </filter>
+        <name>Personal Expense Manager - Expense</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 03:55:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>370cb5bc1b8c04108ed631d7dc4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Expense Manager - Expense (Expenses)</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_report_source_370cb5bc1b8c04108ed631d7dc4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 03:55:55</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+    </sys_report_source>
+</record_update>

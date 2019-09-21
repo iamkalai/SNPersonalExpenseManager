@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">48e3d670c4212200a21c0beaf2e293bb</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 12:59:20</sys_created_on>
+        <sys_id>72ab9c0c1b8400108ed631d7dc4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 12:59:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

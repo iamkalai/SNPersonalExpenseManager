@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Personal Expense Manager">d379c4441bc000108ed631d7dc4bcb05</applet_launcher>
+        <icon display_value="Home Personal Expense Manager">5b79c4441bc000108ed631d7dc4bcb06</icon>
+        <label>Personal Expense Manager</label>
+        <roles>x_0586_personal_ex.personal_expense_manager_user,x_0586_personal_ex.personal_expense_manager_admin</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 11:39:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b79c4441bc000108ed631d7dc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Expense Manager</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_1b79c4441bc000108ed631d7dc4bcb06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 11:39:54</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

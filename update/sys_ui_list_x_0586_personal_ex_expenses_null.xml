@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_0586_personal_ex_expenses" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>36f2b4001b8800108ed631d7dc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>faf2b4001b8800108ed631d7dc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subcategory</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>7ef2b4001b8800108ed631d7dc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>amount</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>fef2b4001b8800108ed631d7dc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>details</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>72f2b4001b8800108ed631d7dc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date</element>
+            <list_id display_value="x_0586_personal_ex_expenses" element="NULL" name="x_0586_personal_ex_expenses" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3af2b4001b8800108ed631d7dc4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_id>f2f2b4001b8800108ed631d7dc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_0586_personal_ex_expenses</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:41:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3af2b4001b8800108ed631d7dc4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_0586_personal_ex_expenses</sys_name>
+            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+            <sys_update_name>sys_ui_list_x_0586_personal_ex_expenses_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 14:41:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
