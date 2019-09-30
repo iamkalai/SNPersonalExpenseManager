@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>amount</display_field>
+        <field_list>category,subcategory,amount,date</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>date</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">37dd953b1b0480108ed631d7dc4bcb26</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table with URL Filter">5d8f9dc2936832003706dfa5e57ffb06</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 09:37:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b290adfb1b0480108ed631d7dc4bcba7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_instance_table_b290adfb1b0480108ed631d7dc4bcba7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 09:59:27</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=b290adfb1b0480108ed631d7dc4bcba7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_instance_table_b290adfb1b0480108ed631d7dc4bcba7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field>amount</display_field><field_list>category,subcategory,amount,date</field_list><filter/><glyph/><id/><maximum_entries>10</maximum_entries><order>1</order><order_by>date</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">37dd953b1b0480108ed631d7dc4bcb26</sp_column><sp_page/><sp_widget display_value="Data Table with URL Filter">5d8f9dc2936832003706dfa5e57ffb06</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 09:37:44</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b290adfb1b0480108ed631d7dc4bcba7</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sp_instance_table_b290adfb1b0480108ed631d7dc4bcba7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 09:59:27</sys_updated_on><table>x_0586_personal_ex_expenses</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=b290adfb1b0480108ed631d7dc4bcba7"/></record_update>]]></payload>
+        <payload_hash>-153981360</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 09:59:27</sys_created_on>
+        <sys_id>f895e93b1b4480108ed631d7dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d7c75f37d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 09:59:27</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>b095e93b07448010b585d49b51ace7cf</update_guid>
+        <update_guid_history>b095e93b07448010b585d49b51ace7cf:-153981360,9bd465b30e4480108c5fbaacd9abe07a:132861826,e9322d3321448010913ec79fc1100527:-153981360,ea11a9bf15048010103f3140d485de5b:765975465,7a90adfbff0480106b822876755e83a8:-1296195543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-09-30 17:20:19">96884b041b5044108ed631d7dc4bcb5e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 11:50:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>7aa52ef74d4b4778b994e4750fbdaab1</sys_id>
+        <sys_metadata>b290adfb1b0480108ed631d7dc4bcba7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_instance_table_b290adfb1b0480108ed631d7dc4bcba7</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_b290adfb1b0480108ed631d7dc4bcba7">f895e93b1b4480108ed631d7dc4bcbcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:50:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

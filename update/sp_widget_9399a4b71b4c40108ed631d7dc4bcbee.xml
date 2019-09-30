@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>pem_summary</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>PEM Summary</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var script = new PersonalExpenseManagerHelper();
+	var summary = JSON.parse(script.overallSummary());
+	data.freeCash = summary.balance;
+	data.todayExpense = summary.todayExpense;
+	data.weekExpense = summary.weekExpense;
+	data.monthExpense = summary.monthExpense;
+	data.monthSaving = summary.monthSaving;
+	data.lending = summary.lending;
+		//this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings');;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 05:37:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9399a4b71b4c40108ed631d7dc4bcbee</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>PEM Summary</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_widget_9399a4b71b4c40108ed631d7dc4bcbee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 06:38:21</sys_updated_on>
+        <template><![CDATA[<div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        Free Cash : <span id='today-expense'>{{c.data.freeCash}}</span>
+      </div>
+      <div class="panel-body">
+        <div id='today-expense'>Today Expense : {{c.data.todayExpense}}</div>
+        <div id='week-expense'>Week Expense : {{c.data.weekExpense}}</div>
+        <div id='month-expense'>Month Expense : {{c.data.monthExpense}}</div>
+        <div id='month-saving'>Month Saving : {{c.data.monthSaving}}</div>
+        <div id='debt-lend'>Debt Lend : {{c.data.lending}}</div>
+      </div>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

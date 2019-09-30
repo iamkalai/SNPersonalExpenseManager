@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>3</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="2">56a1dcbb1b4440108ed631d7dc4bcb24</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 03:52:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d6a1dcbb1b4440108ed631d7dc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_column_d6a1dcbb1b4440108ed631d7dc4bcb26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 03:52:50</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_column_d6a1dcbb1b4440108ed631d7dc4bcb26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">56a1dcbb1b4440108ed631d7dc4bcb24</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 03:52:50</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d6a1dcbb1b4440108ed631d7dc4bcb26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sp_column_d6a1dcbb1b4440108ed631d7dc4bcb26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 03:52:50</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1614196046</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 03:52:50</sys_created_on>
+        <sys_id>d2a1dcbb1b4440108ed631d7dc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d7b264c730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 03:52:50</sys_updated_on>
+        <type>Column</type>
+        <update_guid>daa1dcbbd9444010e2a61f1864eb2427</update_guid>
+        <update_guid_history>daa1dcbbd9444010e2a61f1864eb2427:-1614196046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-09-29 09:25:20">473214fb1bc800108ed631d7dc4bcb82</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 03:55:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>07c1a07fb6064f9a81c1ccafae289891</sys_id>
+        <sys_metadata>d6a1dcbb1b4440108ed631d7dc4bcb26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_column_d6a1dcbb1b4440108ed631d7dc4bcb26</sys_update_name>
+        <sys_update_version display_value="sp_column_d6a1dcbb1b4440108ed631d7dc4bcb26">d2a1dcbb1b4440108ed631d7dc4bcb28</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 03:55:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

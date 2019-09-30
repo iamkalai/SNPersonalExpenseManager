@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>category,subcategory,amount</field_list>
+        <filter table="x_0586_personal_ex_expenses">type=expense^dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item display_value="Expense" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="expense"/>
+            <item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        </filter>
+        <glyph>exclamation</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">021fab001b9444108ed631d7dc4bcb42</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 03:57:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bca21c7f1b8840108ed631d7dc4bcbcd</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Today's expense</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_instance_table_bca21c7f1b8840108ed631d7dc4bcbcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 14:38:52</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+        <title>Today's expense</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=bca21c7f1b8840108ed631d7dc4bcbcd"/>
+</record_update>

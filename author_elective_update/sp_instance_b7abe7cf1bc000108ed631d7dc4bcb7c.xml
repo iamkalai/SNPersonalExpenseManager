@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ea9bef071b8800108ed631d7dc4bcbbf</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 11:49:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7abe7cf1bc000108ed631d7dc4bcb7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_instance_b7abe7cf1bc000108ed631d7dc4bcb7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 12:10:55</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"jumbotron\"><h1>Personal Expense Manager</h1><p>Built natively using ServiceNow.</p></div>",
+		"displayValue": "<div class=\"jumbotron\">\n<h1>Personal Expense Manager</h1>\n<p>Built natively using ServiceNow.</p>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7abe7cf1bc000108ed631d7dc4bcb7c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_instance_b7abe7cf1bc000108ed631d7dc4bcb7c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ea9bef071b8800108ed631d7dc4bcbbf&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-27 11:49:57&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b7abe7cf1bc000108ed631d7dc4bcb7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Personal Expense Manager"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b7abe7cf1bc000108ed631d7dc4bcb7c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-27 12:10:55&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;div class=\"jumbotron\"&gt;&lt;h1&gt;Personal Expense Manager&lt;/h1&gt;&lt;p&gt;Built natively using ServiceNow.&lt;/p&gt;&lt;/div&gt;",
+		"displayValue": "&lt;div class=\"jumbotron\"&gt;\n&lt;h1&gt;Personal Expense Manager&lt;/h1&gt;\n&lt;p&gt;Built natively using ServiceNow.&lt;/p&gt;\n&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b7abe7cf1bc000108ed631d7dc4bcb7c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2033048733</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 12:10:55</sys_created_on>
+        <sys_id>fe70b3431bc800108ed631d7dc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d72a197460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 12:10:55</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b670b343c7c800105500d66c789bb0e0</update_guid>
+        <update_guid_history>b670b343c7c800105500d66c789bb0e0:2033048733,dbbfebcfa48800101e44c73f509a7452:-1099687935,77abe7cf01c00010bb4a7de0e980547e:-2065367649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-09-29 12:42:27">525f74771b0080108ed631d7dc4bcb24</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 07:12:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>00b331f62c95449080008a530e125a84</sys_id>
+        <sys_metadata>b7abe7cf1bc000108ed631d7dc4bcb7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_instance_b7abe7cf1bc000108ed631d7dc4bcb7c</sys_update_name>
+        <sys_update_version display_value="sp_instance_b7abe7cf1bc000108ed631d7dc4bcb7c">fe70b3431bc800108ed631d7dc4bcbe0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 07:12:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

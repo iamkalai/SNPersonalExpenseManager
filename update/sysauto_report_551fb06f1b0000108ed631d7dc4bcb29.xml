@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list>kalaiarasan0215@gmail.com</address_list>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Personal Expense Manager - All</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>XLSX</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Personal Expense Manager - All">8e9ef0eb1b0000108ed631d7dc4bcb18</report>
+        <report_body/>
+        <report_title>Personal Expense Manager - Backup</report_title>
+        <run_as display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>7</run_dayofweek>
+        <run_period/>
+        <run_start>2019-09-28 12:32:48</run_start>
+        <run_time>1969-12-31 18:30:01</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 12:34:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>551fb06f1b0000108ed631d7dc4bcb29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled Execution of Personal Expense Manager - All</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sysauto_report_551fb06f1b0000108ed631d7dc4bcb29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 12:35:17</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

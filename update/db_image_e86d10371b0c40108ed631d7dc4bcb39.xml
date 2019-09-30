@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format/>
+        <height/>
+        <image>c38d18b31b0c40108ed631d7dc4bcb4b</image>
+        <name>Rupee.svg</name>
+        <size_bytes>1943</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 04:44:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e86d10371b0c40108ed631d7dc4bcb39</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rupee.svg</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>db_image_e86d10371b0c40108ed631d7dc4bcb39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 04:44:47</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>14d7115384ae05ec60bc4d327494994872a483566180ee45af59fc0dadf97397</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1943</size_bytes>
+        <size_compressed>970</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 04:44:46</sys_created_on>
+        <sys_id>c38d18b31b0c40108ed631d7dc4bcb4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-29 04:44:48</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>e86d10371b0c40108ed631d7dc4bcb39</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="c38d18b31b0c40108ed631d7dc4bcb4b">c38d18b31b0c40108ed631d7dc4bcb4b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 04:44:46</sys_created_on>
+        <sys_id>078d18b31b0c40108ed631d7dc4bcb4b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>zVXLbiM3EDx7gf0HZm4BSA6bbypWFvEDXgN5GMjGQU6BPBpohFUkQZIlb74+RVL2yoD3nguHIrurq6u7qfMPT/8s2L7fbOer5bghqRrWL7vVdL6cjZv5diVidElQ8+HH9+/OvxOC3fTLfjPZrTYj9tN09dCz28XicbsrR4y8VFJx9vv9Dbt+Wq82O3a3eJyJ2yWT5fC+RhoxGCp28ThfTJn6njEhCv7Vb5ef/rq7Ztv9jN39cfHz7SVrRNv+aS7b9urTVYEgSW17/WvDmmG3W4/a9nA4yIORq82svdlM1sO827YwbLMhnFqAEcnpbtrkGBn6JF9q2Hw6bi4n68nf2EON5Xb8BrJWSmWko8noaTFffn7LkFJKbbmF6bhR66eGfanf9+/O2GE+3Q3jxiqSKcV8OfTz2bB7dbSf94eLVfZmih3Pn78N2+6+LPpx0y8nD4tePEy6z7PN6nE5HS37A3vD44cSGLRH2/Wkg+d602/7zb4vesywnJ2vJ7uBQYdfjPbSa57QCcF3gmQgKqsRRiZFQkvno/BYTd0PwkYZdYd7baIgJ0MyIkmjk9BJOqUFRamDFRZykx48nDWCnnVaep+44lZGZ4TC6jkuQwF2HcIqW4Jrnk8KA1O3mUC4T5KM75TIQL4AOFHBvhrlSJdGW2mM5dkkcaO1JIfAhpK0kbj6GCGVpa4icVVRqnmFKWFjUUQlnknZmj8/0YUX070JMoWaooKfDTlwUhaJesTVJSMvrTZbONt0elL3A7QyKXVWgWiWyDsQc5yUDI54QBwyyENqT0fuJdwr/p5XRb7B332TP8pG2hbu3lfRXCmS5V/NTAlYhKhwBcidWBxjDqRBkFwHUhQjR4d4QlPk1AEY0CI+d4rOXHCXjqnAzmjHI5xQeicdrAkZB1RESaDXHyelK0KLKnIWPKf+ImlOPZbUsYqqOCg4Eifq740HD3NSuviSvgv0kpxGw8PUWRQhd3/kEVgm8WQk5TpZdFjUnLyRSpdWLoXX0QNJJbghnOcBDZzqfnDI/dg1MFGUqy4DxiyXDAHgTMJJQq6UB0FUCJJodwyth6S4zKMH804AzgUtfKyH0NdhOtHwBHsyGHDroDH4mRoU3WRgYqCP5y7iGcC9hcSBB+SIOYaTVbbTaEqMM4G8zsMkrU3CYJIwnBAlgg5WosFiDjDHuYv0qzG3/OQBeekjd2xOnIacXUzP+2J9n4L01mOWkQMUTBZTFhA/YrQdTyhjZnPyfv3btPmJa2fPD93/fpv/YvD9Dxw5nuqXBwAA</data>
+        <length>1280</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="c38d18b31b0c40108ed631d7dc4bcb4b">c38d18b31b0c40108ed631d7dc4bcb4b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 04:44:46</sys_created_on>
+        <sys_id>878d18b31b0c40108ed631d7dc4bcb4b</sys_id>
+    </sys_attachment_doc>
+</record_update>
