@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="4">421fab001b9444108ed631d7dc4bcb47</sp_column>
+        <sp_widget display_value="Custom Image Link">9b43e8ff1b0c40108ed631d7dc4bcb74</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 05:13:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7a0460731b4c40108ed631d7dc4bcbec</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Add New Expense</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_instance_7a0460731b4c40108ed631d7dc4bcbec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 14:52:43</sys_updated_on>
+        <title>Add New Expense</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"image": {
+		"value": "Rupee.svg",
+		"displayValue": "Rupee.svg"
+	},
+	"title": {
+		"value": "Add New Expense",
+		"displayValue": "Add New Expense"
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "/pem?id=form&table=x_0586_personal_ex_expenses&sys_id=-1",
+		"displayValue": "/pem?id=form&table=x_0586_personal_ex_expenses&sys_id=-1"
+	},
+	"link_title": {
+		"value": "Add",
+		"displayValue": "Add"
+	},
+	"link_target": {
+		"value": "_self",
+		"displayValue": "_self"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a0460731b4c40108ed631d7dc4bcbec"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_instance_7a0460731b4c40108ed631d7dc4bcbec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="4"&gt;421fab001b9444108ed631d7dc4bcb47&lt;/sp_column&gt;&lt;sp_widget display_value="Custom Image Link"&gt;9b43e8ff1b0c40108ed631d7dc4bcb74&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-29 05:13:09&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;7a0460731b4c40108ed631d7dc4bcbec&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add New Expense&lt;/sys_name&gt;&lt;sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Personal Expense Manager"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_7a0460731b4c40108ed631d7dc4bcbec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 14:52:43&lt;/sys_updated_on&gt;&lt;title&gt;Add New Expense&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"image": {
+		"value": "Rupee.svg",
+		"displayValue": "Rupee.svg"
+	},
+	"title": {
+		"value": "Add New Expense",
+		"displayValue": "Add New Expense"
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "/pem?id=form&amp;table=x_0586_personal_ex_expenses&amp;sys_id=-1",
+		"displayValue": "/pem?id=form&amp;table=x_0586_personal_ex_expenses&amp;sys_id=-1"
+	},
+	"link_title": {
+		"value": "Add",
+		"displayValue": "Add"
+	},
+	"link_target": {
+		"value": "_self",
+		"displayValue": "_self"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7a0460731b4c40108ed631d7dc4bcbec"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>481255534</payload_hash>
+        <record_name>Add New Expense</record_name>
+        <reverted_from/>
+        <source>7683c8481bc000108ed631d7dc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 14:52:44</sys_created_on>
+        <sys_id>ae42bf081b9444108ed631d7dc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d82a8ce610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 14:52:44</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6642bf085294441040ae3e1413f7ff90</update_guid>
+        <update_guid_history>6642bf085294441040ae3e1413f7ff90:481255534,093feb409c9444104b4873b54abde9be:-1801112894,f12f6b40ca944410269ed5d573b2e6c2:1880266643,af5eb54c19d40410d9614a465d3c086c:1046483048,85c599f7a8c08010d5c730cf1d6fecc2:-2060524729,9eb55df795c0801059874551d6f5b9ca:1046483048,ddb55df7c3c08010a1b26c610a5a1e43:858730806,3b9559f757c0801057a22622c5cf2cea:-329228713,c1f6c9bb5e4080108d19ae429e32964e:1046483048,fcd28973f4408010bc209f3a217a1396:-329228713,6ba201ff5f008010270e3b8c2dfab247:745480182,9926ec37ea4c40108d03385ae7184e86:1046483048,bee560775d4c4010513d3f9afe84fb90:-798419381,75d52c37f34c40109f6b8e51589dd8b7:389540138,0bb5e473684c4010f9cacb325186d982:1772590306,c245ec73614c4010bba22b8dbc10be01:791270068,5424a073194c4010d6403551e9799a66:792529748,fe046073b14c40103abc4dfb4f3466ed:1980583480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2019-09-30 22:47:27">aa6354981b9844108ed631d7dc4bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 17:17:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>67551c6e8175412895662aa69ac4f621</sys_id>
+        <sys_metadata>7a0460731b4c40108ed631d7dc4bcbec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add New Expense</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_instance_7a0460731b4c40108ed631d7dc4bcbec</sys_update_name>
+        <sys_update_version display_value="sp_instance_7a0460731b4c40108ed631d7dc4bcbec">ae42bf081b9444108ed631d7dc4bcb90</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 17:17:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

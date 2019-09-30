@@ -18,7 +18,7 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">021fab001b9444108ed631d7dc4bcb42</sp_column>
+        <sp_column display_value="2">d1c8d8541bd844108ed631d7dc4bcb9d</sp_column>
         <sp_page/>
         <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
@@ -26,7 +26,7 @@
         <sys_created_on>2019-09-29 03:57:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bca21c7f1b8840108ed631d7dc4bcbcd</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Today's expense</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sp_instance_table_bca21c7f1b8840108ed631d7dc4bcbcd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 14:38:52</sys_updated_on>
+        <sys_updated_on>2019-09-30 17:41:07</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Today's expense</title>
         <url/>
