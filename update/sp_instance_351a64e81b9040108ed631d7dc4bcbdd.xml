@@ -10,28 +10,28 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">5d50817f1b0080108ed631d7dc4bcb3c</sp_column>
+        <sp_column display_value="1">391a64e81b9040108ed631d7dc4bcbdb</sp_column>
         <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-29 07:16:59</sys_created_on>
+        <sys_created_on>2019-10-01 13:35:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7860457f1b0080108ed631d7dc4bcb17</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>351a64e81b9040108ed631d7dc4bcbdd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sp_instance_7860457f1b0080108ed631d7dc4bcb17</sys_update_name>
+        <sys_update_name>sp_instance_351a64e81b9040108ed631d7dc4bcbdd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-01 13:55:07</sys_updated_on>
+        <sys_updated_on>2019-10-01 13:55:58</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"report_id": {
-		"value": "d52ce02c1b9040108ed631d7dc4bcb45",
-		"displayValue": "Savings - (Active) Last 12 Months"
+		"value": "bbaa85181b4800108ed631d7dc4bcb16",
+		"displayValue": "Savings (Non FDs) - Last 12 Months"
 	},
 	"show_title": {
 		"value": "true",
@@ -39,5 +39,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=7860457f1b0080108ed631d7dc4bcb17"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=351a64e81b9040108ed631d7dc4bcbdd"/>
 </record_update>

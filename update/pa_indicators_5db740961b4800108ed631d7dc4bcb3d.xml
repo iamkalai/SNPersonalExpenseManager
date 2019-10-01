@@ -51,7 +51,7 @@ Type = Income</description>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2019-09-30 04:00:08</scores_modified_at>
+        <scores_modified_at>2019-10-01 04:00:12</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
