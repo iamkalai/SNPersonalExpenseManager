@@ -34,7 +34,7 @@
         <sys_created_on>2019-09-29 05:37:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9399a4b71b4c40108ed631d7dc4bcbee</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>PEM Summary</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sp_widget_9399a4b71b4c40108ed631d7dc4bcbee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 17:39:32</sys_updated_on>
+        <sys_updated_on>2019-10-02 15:27:23</sys_updated_on>
         <template><![CDATA[<div>
     <div class="panel panel-success">
       <div class="panel-heading">
@@ -57,11 +57,11 @@
         <div class="clearfix"></div>
       </div>
       <div class="panel-body">
-        <div id='today-expense'>Today Expense : {{c.data.todayExpense}}</div>
-        <div id='week-expense'>Week Expense : {{c.data.weekExpense}}</div>
-        <div id='month-expense'>Month Expense : {{c.data.monthExpense}}</div>
-        <div id='month-saving'>Month Saving : {{c.data.monthSaving}}</div>
-        <div id='debt-lend'>Debt Lend : {{c.data.lending}}</div>        
+        <div id='today-expense'>Today Expense : <a href='/pem?id=custom_list_with_filter&option=type=expense^dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()' target="_self">{{c.data.todayExpense}}</a></div>
+        <div id='week-expense'>Week Expense : <a href='/pem?id=custom_list_with_filter&option=type=expense^dateONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()' target="_self">{{c.data.weekExpense}}</a></div>
+        <div id='month-expense'>Month Expense : <a href='/pem?id=custom_list_with_filter&option=type=expense^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()' target="_self">{{c.data.monthExpense}}</a></div>
+        <div id='month-saving'>Month Saving : <a href='/pem?id=custom_list_with_filter&option=type=savings^category!=fd^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()' target="_self">{{c.data.monthSaving}}</a></div>
+        <div id='debt-lend'>Debt Lend : <a href='/pem?id=custom_list_with_filter&option=type=debt^category=lend' target="_self">{{c.data.lending}}</a></div>        
       </div>
     </div>
 </div>]]></template>
