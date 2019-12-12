@@ -8,7 +8,8 @@
         <description>This script include contains the functions used by personal expense manager app.&#13;
 &#13;
 var script = new PersonalExpenseManagerHelper();&#13;
-gs.info(script.overallSummary());</description>
+var summary = JSON.parse(script.overallSummary());&#13;
+gs.info(summary.tradingResult);</description>
         <name>PersonalExpenseManagerHelper</name>
         <script><![CDATA[var PersonalExpenseManagerHelper = Class.create();
 PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
@@ -26,7 +27,11 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         summary.weekExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()');
         summary.monthExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
         summary.monthSaving = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^category!=fd^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
-
+        summary.totalStockIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks');
+        summary.tradingIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks^subcategory=trading');
+        summary.dividendIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks^subcategory=dividend');
+        summary.tradingLoss = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^category=business');
+        summary.tradingResult = summary.tradingLoss - summary.totalStockIncome;
         return (JSON.stringify(summary));
     },
 
@@ -57,7 +62,7 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_created_on>2019-09-28 14:38:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1899d1e31b0400108ed631d7dc4bcb8c</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>PersonalExpenseManagerHelper</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -65,6 +70,6 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_script_include_1899d1e31b0400108ed631d7dc4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 06:35:52</sys_updated_on>
+        <sys_updated_on>2019-10-31 14:06:28</sys_updated_on>
     </sys_script_include>
 </record_update>

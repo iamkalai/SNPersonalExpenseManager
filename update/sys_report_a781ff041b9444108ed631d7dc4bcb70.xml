@@ -43,7 +43,7 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>category</field>
-        <field_list/>
+        <field_list>type,category,subcategory,amount,details,date,payment_method,number,status</field_list>
         <filter table="x_0586_personal_ex_expenses">type=savings^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^category!=fd<item display_value="Savings" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="savings"/>
             <item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
             <item display_value="FD" endquery="false" field="category" goto="false" newquery="false" operator="!=" or="false" value="fd"/>
@@ -72,7 +72,7 @@
         <map_source/>
         <orderby_list/>
         <other_threshold>-1</other_threshold>
-        <others>true</others>
+        <others>false</others>
         <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
@@ -85,7 +85,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color/>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -96,7 +96,7 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
-        <show_zero>false</show_zero>
+        <show_zero>true</show_zero>
         <source_type>source</source_type>
         <start_time/>
         <style_config/>
@@ -106,7 +106,7 @@
         <sys_created_on>2019-09-30 14:49:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a781ff041b9444108ed631d7dc4bcb70</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Savings - This Month</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -114,7 +114,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_report_a781ff041b9444108ed631d7dc4bcb70</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 14:50:39</sys_updated_on>
+        <sys_updated_on>2019-10-05 07:13:25</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Savings - This Month</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

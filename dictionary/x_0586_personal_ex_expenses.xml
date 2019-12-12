@@ -38,7 +38,7 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Details" max_length="40" name="details" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="credit" label="Payment Method" max_length="40" name="payment_method" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cash" label="Payment Method" max_length="40" name="payment_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
                 <element inactive_on_update="false" label="Check" sequence="1" value="check"/>

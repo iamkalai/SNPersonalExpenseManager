@@ -12,7 +12,7 @@
         <column_label>Payment Method</column_label>
         <comments/>
         <create_roles/>
-        <default_value>credit</default_value>
+        <default_value>cash</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -50,7 +50,7 @@
         <sys_created_on>2019-09-17 11:37:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e2f8c4041b0400108ed631d7dc4bcb0f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Payment Method</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_dictionary_x_0586_personal_ex_expenses_payment_method</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 11:50:31</sys_updated_on>
+        <sys_updated_on>2019-10-11 12:33:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
