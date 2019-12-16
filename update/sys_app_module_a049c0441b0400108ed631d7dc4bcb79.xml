@@ -5,16 +5,19 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_0586_personal_ex_expenses">type=debt^category=lend^EQ<item display_value="Debt" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="debt"/>
+            <item display_value="Lend" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="lend"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Expenses</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>1</order>
+        <name>x_0586_personal_ex_expenses</name>
+        <order>60</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,8 +31,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a049c0441b0400108ed631d7dc4bcb79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Expenses</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Debt-Lend</sys_name>
         <sys_overrides/>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -37,9 +40,9 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_app_module_a049c0441b0400108ed631d7dc4bcb79</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 11:38:53</sys_updated_on>
+        <sys_updated_on>2019-12-16 12:10:34</sys_updated_on>
         <timeline_page/>
-        <title>Expenses</title>
+        <title>Debt-Lend</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
