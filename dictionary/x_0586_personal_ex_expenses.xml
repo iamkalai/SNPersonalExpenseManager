@@ -104,6 +104,7 @@
                 <element dependent_value="personal" inactive_on_update="false" label="Personal Care" sequence="0" value="personal_care"/>
                 <element dependent_value="personal" inactive_on_update="false" label="Purchase" sequence="0" value="purchase"/>
                 <element dependent_value="utilities" inactive_on_update="false" label="Recharge" sequence="0" value="recharge"/>
+                <element dependent_value="family" inactive_on_update="false" label="Recharge" sequence="0" value="recharge"/>
                 <element dependent_value="personal" inactive_on_update="false" label="Rent" sequence="0" value="rent"/>
                 <element dependent_value="food" inactive_on_update="false" label="Snack" sequence="0" value="snack"/>
                 <element dependent_value="office" inactive_on_update="false" label="Stationery" sequence="0" value="stationery"/>
