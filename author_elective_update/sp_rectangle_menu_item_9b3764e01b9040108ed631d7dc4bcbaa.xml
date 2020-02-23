@@ -40,7 +40,7 @@
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=9b3764e01b9040108ed631d7dc4bcbaa"/>
+    <sys_translated_text action="DELETE" query="documentkey=9b3764e01b9040108ed631d7dc4bcbaa"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>

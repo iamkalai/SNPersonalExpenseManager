@@ -3,6 +3,7 @@
         <condition_type>declarative</condition_type>
         <description/>
         <group_by/>
+        <instance_relative_url_qc/>
         <name>Personal Expense Manager Expenses</name>
         <query_condition/>
         <query_condition_script/>

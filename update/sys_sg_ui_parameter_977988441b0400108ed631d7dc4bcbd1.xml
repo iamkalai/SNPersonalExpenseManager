@@ -11,6 +11,8 @@
         <input_style>inline</input_style>
         <input_type>source_field</input_type>
         <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
         <multi_select>false</multi_select>
         <name>Sys ID</name>
         <order/>

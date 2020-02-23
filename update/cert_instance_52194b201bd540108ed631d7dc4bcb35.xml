@@ -6,6 +6,7 @@
         <assign_to_group/>
         <assignment_type>User Field</assignment_type>
         <audit_type>data_cert</audit_type>
+        <business_calendar/>
         <cert_audit_instance/>
         <cert_condition/>
         <cert_schedule display_value="IBM Server Schedule">26fbc7f197d1300000f8d7b8fa297531</cert_schedule>
@@ -15,6 +16,7 @@
         <conditional>false</conditional>
         <create_tasks>false</create_tasks>
         <display_fields/>
+        <entered_time/>
         <fields>os_version</fields>
         <filter display_value="IBM Servers - 1">069882959791300000f8d7b8fa297583</filter>
         <group display_value="">e08fad2637232000158bbfc8bcbe5d39</group>
@@ -62,6 +64,7 @@
         <task_description>Remedy the discrepancies listed in the Audit Results below</task_description>
         <template/>
         <threshold_count>5</threshold_count>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <user/>
     </cert_instance>

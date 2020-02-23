@@ -3,6 +3,7 @@
         <active>true</active>
         <breakdown_source/>
         <color>#ffffff</color>
+        <disable_multiple_element>false</disable_multiple_element>
         <group display_value="Personal Expense Manager">faead5881bcc00108ed631d7dc4bcb82</group>
         <groups/>
         <is_breakdown>false</is_breakdown>

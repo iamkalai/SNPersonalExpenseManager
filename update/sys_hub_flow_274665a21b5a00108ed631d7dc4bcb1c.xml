@@ -6,14 +6,16 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch0-hotfix1-01-08-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>sync_personal_expenses</internal_name>
         <label_cache>[{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.object_id","label":"1➛Record ID","reference_display":"Record ID","type":"string","base_type":"string"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Expenses Record","reference":"x_0586_personal_ex_expenses","reference_display":"Expenses","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.details","label":"Trigger➛Expenses Record➛Details","reference":"","reference_display":"Details","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"details"},{"name":"Created or Updated_1.current.amount","label":"Trigger➛Expenses Record➛Amount","reference":"","reference_display":"Amount","type":"decimal","base_type":"decimal","parent_table_name":"x_0586_personal_ex_expenses","column_name":"amount"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Expenses Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"number"},{"name":"Created or Updated_1.current.date","label":"Trigger➛Expenses Record➛Date","reference":"","reference_display":"Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_0586_personal_ex_expenses","column_name":"date"},{"name":"Created or Updated_1.current.subcategory","label":"Trigger➛Expenses Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"subcategory"},{"name":"Created or Updated_1.current.type","label":"Trigger➛Expenses Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"type"},{"name":"Created or Updated_1.current.category","label":"Trigger➛Expenses Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"category"},{"name":"Created or Updated_1.current.payment_method","label":"Trigger➛Expenses Record➛Payment Method","reference":"","reference_display":"Payment Method","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"payment_method"}]</label_cache>
-        <latest_snapshot>60870a6a1b1240108ed631d7dc4bcb68</latest_snapshot>
+        <latest_snapshot>5ee614f51b2200108ed631d7dc4bcb48</latest_snapshot>
         <master_snapshot>3717c2e61b1240108ed631d7dc4bcbd7</master_snapshot>
         <name>Sync Personal Expenses</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id>802706e61b1240108ed631d7dc4bcb9b</remote_trigger_id>
         <run_as>user</run_as>
@@ -87,7 +89,7 @@
         <sys_created_on>2020-01-15 11:34:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bbf60aa61b1240108ed631d7dc4bcb17</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -95,7 +97,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:36:36</sys_updated_on>
+        <sys_updated_on>2020-01-25 05:44:55</sys_updated_on>
         <ui_id>f22231a4-9caf-4671-a0e5-1b5f15de91a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbf60aa61b1240108ed631d7dc4bcb17"/>
@@ -448,7 +450,7 @@
         <sys_created_on>2020-01-15 11:34:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bbf60aa61b1240108ed631d7dc4bcb17</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -456,7 +458,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:36:36</sys_updated_on>
+        <sys_updated_on>2020-01-25 05:44:55</sys_updated_on>
         <ui_id>f22231a4-9caf-4671-a0e5-1b5f15de91a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbf60aa61b1240108ed631d7dc4bcb17"/>
@@ -593,7 +595,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cc2706e61b1240108ed631d7dc4bcb9b","name":"plan"}}</plan>
         <plan_id>274665a21b5a00108ed631d7dc4bcb1c</plan_id>
-        <snapshot>60870a6a1b1240108ed631d7dc4bcb68</snapshot>
+        <snapshot>5ee614f51b2200108ed631d7dc4bcb48</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-15 11:34:55</sys_created_on>
@@ -626,6 +628,7 @@
         <label_cache>[{"name":"Created or Updated_1.current.payment_method","label":"Trigger➛Expenses Record➛Payment Method","reference":"","reference_display":"Payment Method","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"payment_method"},{"name":"Created or Updated_1.current.category","label":"Trigger➛Expenses Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"category"},{"name":"Created or Updated_1.current.type","label":"Trigger➛Expenses Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"type"},{"name":"Created or Updated_1.current.subcategory","label":"Trigger➛Expenses Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"subcategory"},{"name":"Created or Updated_1.current.date","label":"Trigger➛Expenses Record➛Date","reference":"","reference_display":"Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_0586_personal_ex_expenses","column_name":"date"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Expenses Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"number"},{"name":"Created or Updated_1.current.amount","label":"Trigger➛Expenses Record➛Amount","reference":"","reference_display":"Amount","type":"decimal","base_type":"decimal","parent_table_name":"x_0586_personal_ex_expenses","column_name":"amount"},{"name":"Created or Updated_1.current.details","label":"Trigger➛Expenses Record➛Details","reference":"","reference_display":"Details","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"details"},{"name":"Created or Updated_1.current","label":"Trigger➛Expenses Record","reference":"x_0586_personal_ex_expenses","reference_display":"Expenses","type":"reference","base_type":"reference"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.object_id","label":"1➛Record ID","reference_display":"Record ID","type":"string","base_type":"string"}]</label_cache>
         <master>true</master>
         <name>Sync Personal Expenses</name>
+        <natlang/>
         <outputs/>
         <parent_flow display_value="Sync Personal Expenses">274665a21b5a00108ed631d7dc4bcb1c</parent_flow>
         <remote_trigger_id/>

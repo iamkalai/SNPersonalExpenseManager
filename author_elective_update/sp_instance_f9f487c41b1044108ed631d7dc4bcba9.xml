@@ -30,7 +30,7 @@
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=f9f487c41b1044108ed631d7dc4bcba9"/>
+    <sys_translated_text action="DELETE" query="documentkey=f9f487c41b1044108ed631d7dc4bcba9"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>

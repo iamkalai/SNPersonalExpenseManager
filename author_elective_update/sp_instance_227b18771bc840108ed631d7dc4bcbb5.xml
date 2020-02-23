@@ -51,7 +51,7 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=227b18771bc840108ed631d7dc4bcbb5"/>
+    <sys_translated_text action="DELETE" query="documentkey=227b18771bc840108ed631d7dc4bcbb5"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
