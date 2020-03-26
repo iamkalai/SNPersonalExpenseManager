@@ -44,7 +44,9 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>type,category,subcategory,amount,details,date,payment_method,number,status</field_list>
-        <filter table="x_0586_personal_ex_expenses">^ORDERBYDESCdate<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="date"/>
+        <filter table="x_0586_personal_ex_expenses">dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^EQ^ORDERBYDESCnumber<item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="number"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -54,7 +56,7 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>false</is_scheduled>
+        <is_scheduled>true</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color>
         <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
@@ -101,20 +103,20 @@
         <sumfield>amount</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-28 12:30:40</sys_created_on>
+        <sys_created_on>2020-02-26 18:45:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8e9ef0eb1b0000108ed631d7dc4bcb18</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Personal Expense Manager - All</sys_name>
+        <sys_id>8f7c334c1b9748d08ed631d7dc4bcbf8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Personal Expense Manager - All (This Year)</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sys_report_8e9ef0eb1b0000108ed631d7dc4bcb18</sys_update_name>
+        <sys_update_name>sys_report_8f7c334c1b9748d08ed631d7dc4bcbf8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-26 18:47:08</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
-        <title>Personal Expense Manager - All</title>
+        <title>Personal Expense Manager - All (This Year)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
