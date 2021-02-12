@@ -3,6 +3,8 @@
         <aggregate>1</aggregate>
         <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
         <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
         <conditions/>
@@ -52,7 +54,7 @@ Type = Income</description>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2020-09-02 04:00:16</scores_modified_at>
+        <scores_modified_at>2021-02-12 05:44:52</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>

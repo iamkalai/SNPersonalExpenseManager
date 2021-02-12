@@ -6,8 +6,10 @@
         <dynamic_title_structure/>
         <id>custom_list_with_filter</id>
         <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
         <public>false</public>
         <roles/>
+        <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -24,6 +26,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-30 12:25:39</sys_updated_on>
         <title>Custom List With Filter</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=f9cd9d3b1b0480108ed631d7dc4bcb1a"/>
 </record_update>

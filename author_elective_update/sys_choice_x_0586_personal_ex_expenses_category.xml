@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_0586_personal_ex_expenses" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_0586_personal_ex_expenses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 11:37:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>72f8c4041b0400108ed631d7dc4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+            <sys_update_name>sys_choice_x_0586_personal_ex_expenses_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 11:37:42</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>expense</dependent_value>
             <element>category</element>
@@ -9,6 +27,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -28,6 +47,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -47,6 +67,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -66,6 +87,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:13:06</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -85,6 +107,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -104,6 +127,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:13:16</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -123,6 +147,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -142,6 +167,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -161,6 +187,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:13:55</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -180,6 +207,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:07:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -199,6 +227,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:13:32</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -218,6 +247,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:12:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -237,6 +267,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:14:06</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -252,10 +283,31 @@
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
+            <label>NPS-2</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-02 10:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c02809e2f30a8d051dad5f62799b6d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-02 10:02:56</sys_updated_on>
+            <value>nps2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>savings</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>NSC</label>
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:14:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -275,6 +327,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -294,6 +347,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:08:43</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -313,6 +367,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:09:22</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -332,6 +387,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:04:01</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -351,6 +407,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -370,6 +427,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -389,6 +447,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:05:32</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -408,6 +467,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:14:33</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -427,6 +487,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:07:39</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -446,6 +507,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 12:14:50</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -465,6 +527,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -484,6 +547,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -503,6 +567,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -522,6 +587,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 11:37:42</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -541,6 +607,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-17 14:25:10</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -560,6 +627,7 @@
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-09-20 03:57:39</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -570,23 +638,5 @@
             <sys_updated_on>2019-09-20 03:57:54</sys_updated_on>
             <value>borrow</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>category</element>
-            <name>x_0586_personal_ex_expenses</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-17 11:37:42</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>72f8c4041b0400108ed631d7dc4bcb87</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>category</sys_name>
-            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-            <sys_update_name>sys_choice_x_0586_personal_ex_expenses_category</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-17 11:37:42</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

@@ -2,6 +2,8 @@
     <sp_portal action="INSERT_OR_UPDATE">
         <css_variables/>
         <default>false</default>
+        <enable_ais>false</enable_ais>
+        <hide_portal_name>false</hide_portal_name>
         <homepage display_value="expense_manager_index">e38be3c31b8800108ed631d7dc4bcb74</homepage>
         <icon/>
         <kb_knowledge_base/>
@@ -13,6 +15,8 @@
         <sc_catalog/>
         <sc_catalog_page/>
         <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="PEM - Header">80be73cb1b4c00108ed631d7dc4bcb70</sp_rectangle_menu>
         <sqanda_knowledge_base/>

@@ -6,8 +6,10 @@
         <dynamic_title_structure/>
         <id>pem_expense_reports</id>
         <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
         <public>false</public>
         <roles/>
+        <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -24,6 +26,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-01 13:25:24</sys_updated_on>
         <title>PEM-Expense Reports</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=89e7aca41b9040108ed631d7dc4bcb7a"/>
 </record_update>

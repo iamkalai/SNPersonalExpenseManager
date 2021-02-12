@@ -19,7 +19,7 @@
             <sys_updated_on>2019-09-17 14:31:25</sys_updated_on>
             <value>expense</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+        <sys_choice_set action="DELETE">
             <element>type</element>
             <name>x_0586_personal_ex_expenses</name>
             <sys_class_name>sys_choice_set</sys_class_name>

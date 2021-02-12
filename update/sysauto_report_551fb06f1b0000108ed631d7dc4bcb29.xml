@@ -10,6 +10,8 @@
         <include_detail>false</include_detail>
         <include_with/>
         <name>Scheduled Execution of Personal Expense Manager - All</name>
+        <offset/>
+        <offset_type>0</offset_type>
         <omit_if_no_records>false</omit_if_no_records>
         <output_type>XLSX</output_type>
         <page_height_in_pixels>612</page_height_in_pixels>

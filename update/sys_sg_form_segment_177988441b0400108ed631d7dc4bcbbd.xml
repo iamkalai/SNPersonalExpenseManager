@@ -2,6 +2,8 @@
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">137988441b0400108ed631d7dc4bcbba</embedded_screen>
         <form display_value="Expenses Form Screen">d77988441b0400108ed631d7dc4bcbb9</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
         <order>10</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
