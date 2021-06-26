@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-quebec-12-09-2020__patch0-hotfix2-01-08-2021</compiler_build>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>sync_personal_expenses</internal_name>
         <label_cache>[{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.object_id","label":"1➛Record ID","reference_display":"Record ID","type":"string","base_type":"string"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"f22231a4-9caf-4671-a0e5-1b5f15de91a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Expenses Record","reference":"x_0586_personal_ex_expenses","reference_display":"Expenses","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.details","label":"Trigger➛Expenses Record➛Details","reference":"","reference_display":"Details","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"details"},{"name":"Created or Updated_1.current.amount","label":"Trigger➛Expenses Record➛Amount","reference":"","reference_display":"Amount","type":"decimal","base_type":"decimal","parent_table_name":"x_0586_personal_ex_expenses","column_name":"amount"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Expenses Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_0586_personal_ex_expenses","column_name":"number"},{"name":"Created or Updated_1.current.date","label":"Trigger➛Expenses Record➛Date","reference":"","reference_display":"Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_0586_personal_ex_expenses","column_name":"date"},{"name":"Created or Updated_1.current.subcategory","label":"Trigger➛Expenses Record➛Subcategory","reference":"","reference_display":"Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"subcategory"},{"name":"Created or Updated_1.current.type","label":"Trigger➛Expenses Record➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"type"},{"name":"Created or Updated_1.current.category","label":"Trigger➛Expenses Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"category"},{"name":"Created or Updated_1.current.payment_method","label":"Trigger➛Expenses Record➛Payment Method","reference":"","reference_display":"Payment Method","type":"choice","base_type":"choice","parent_table_name":"x_0586_personal_ex_expenses","column_name":"payment_method"}]</label_cache>
-        <latest_snapshot>81f0ee152f1a201051dad5f62799b68c</latest_snapshot>
+        <latest_snapshot>568c44c32fba201051dad5f62799b640</latest_snapshot>
         <master_snapshot>3717c2e61b1240108ed631d7dc4bcbd7</master_snapshot>
         <name>Sync Personal Expenses</name>
         <natlang/>
@@ -99,112 +99,6 @@
         <sys_id>9a19d2592f96201051dad5f62799b641</sys_id>
     </sys_json_chunk>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=274665a21b5a00108ed631d7dc4bcb1c^sys_idNOT IN1a19d2592f96201051dad5f62799b641"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=274665a21b5a00108ed631d7dc4bcb1c^sys_idNOT INbbf60aa61b1240108ed631d7dc4bcb17"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">99614f80739433000fba78ba4cf6a796</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>99614f80739433000fba78ba4cf6a796</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Sync Personal Expenses">274665a21b5a00108ed631d7dc4bcb1c</flow>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:21</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>bbf60aa61b1240108ed631d7dc4bcb17</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 08:37:42</sys_updated_on>
-        <ui_id>f22231a4-9caf-4671-a0e5-1b5f15de91a2</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bbf60aa61b1240108ed631d7dc4bcb17"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>bbf60aa61b1240108ed631d7dc4bcb17</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:53</sys_created_on>
-        <sys_id>b317c2e61b1240108ed631d7dc4bcbae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:53</sys_updated_on>
-        <value>personal_expenses__c</value>
-        <variable display_value="Object">1ed7d2a30f5a33003788001ea8767e31</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>bbf60aa61b1240108ed631d7dc4bcb17</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:21</sys_created_on>
-        <sys_id>b3f60aa61b1240108ed631d7dc4bcb1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:21</sys_updated_on>
-        <value>personal_expenses__c</value>
-        <variable display_value="Object">69d752a30f5a33003788001ea8767ed9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bbf60aa61b1240108ed631d7dc4bcb17"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>bbf60aa61b1240108ed631d7dc4bcb17</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:21</sys_created_on>
-        <sys_id>7ff60aa61b1240108ed631d7dc4bcb19</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_603f3280739433000fba78ba4cf6a76c</table>
-        <value>Payment_Method__c={{Created or Updated_1.current.payment_method}}^Category__c={{Created or Updated_1.current.category}}^Type__c={{Created or Updated_1.current.type}}^Subcategory__c={{Created or Updated_1.current.subcategory}}^Date__c={{Created or Updated_1.current.date}}^Number__c={{Created or Updated_1.current.number}}^Amount__c={{Created or Updated_1.current.amount}}^Details__c={{Created or Updated_1.current.details}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>bbf60aa61b1240108ed631d7dc4bcb17</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:53</sys_created_on>
-        <sys_id>7f17c2e61b1240108ed631d7dc4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_99614f80739433000fba78ba4cf6a796</table>
-        <value>Payment_Method__c={{Created or Updated_1.current.payment_method}}^Category__c={{Created or Updated_1.current.category}}^Type__c={{Created or Updated_1.current.type}}^Subcategory__c={{Created or Updated_1.current.subcategory}}^Date__c={{Created or Updated_1.current.date}}^Number__c={{Created or Updated_1.current.number}}^Amount__c={{Created or Updated_1.current.amount}}^Details__c={{Created or Updated_1.current.details}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>object</field>
-        <id>bbf60aa61b1240108ed631d7dc4bcb17</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:21</sys_created_on>
-        <sys_id>33f60aa61b1240108ed631d7dc4bcb1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:21</sys_updated_on>
-        <table>var__m_sys_hub_action_input_603f3280739433000fba78ba4cf6a76c</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>object</field>
-        <id>bbf60aa61b1240108ed631d7dc4bcb17</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:53</sys_created_on>
-        <sys_id>3317c2e61b1240108ed631d7dc4bcbae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_99614f80739433000fba78ba4cf6a796</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=274665a21b5a00108ed631d7dc4bcb1c^sys_idNOT INd0196da21b9a00108ed631d7dc4bcb5f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -477,7 +371,7 @@
         <sys_created_on>2020-01-15 11:34:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bbf60aa61b1240108ed631d7dc4bcb17</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -485,7 +379,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 08:37:42</sys_updated_on>
+        <sys_updated_on>2021-03-14 04:50:00</sys_updated_on>
         <ui_id>f22231a4-9caf-4671-a0e5-1b5f15de91a2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bbf60aa61b1240108ed631d7dc4bcb17"/>
@@ -622,7 +516,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cc2706e61b1240108ed631d7dc4bcb9b","name":"plan"}}</plan>
         <plan_id>274665a21b5a00108ed631d7dc4bcb1c</plan_id>
-        <snapshot>81f0ee152f1a201051dad5f62799b68c</snapshot>
+        <snapshot>568c44c32fba201051dad5f62799b640</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-15 11:34:55</sys_created_on>
@@ -682,74 +576,6 @@
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=3717c2e61b1240108ed631d7dc4bcbd7"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=3717c2e61b1240108ed631d7dc4bcbd7^sys_idNOT IN442706e61b1240108ed631d7dc4bcb56"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">99614f80739433000fba78ba4cf6a796</action_type>
-        <action_type_parent display_value="Create Record">603f3280739433000fba78ba4cf6a76c</action_type_parent>
-        <comment/>
-        <compiled_snapshot>99614f80739433000fba78ba4cf6a796</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Sync Personal Expenses">3717c2e61b1240108ed631d7dc4bcbd7</flow>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:55</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>442706e61b1240108ed631d7dc4bcb56</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:55</sys_updated_on>
-        <ui_id>f22231a4-9caf-4671-a0e5-1b5f15de91a2</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=442706e61b1240108ed631d7dc4bcb56"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>442706e61b1240108ed631d7dc4bcb56</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:55</sys_created_on>
-        <sys_id>482706e61b1240108ed631d7dc4bcb57</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:55</sys_updated_on>
-        <value>personal_expenses__c</value>
-        <variable display_value="Object">1ed7d2a30f5a33003788001ea8767e31</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=442706e61b1240108ed631d7dc4bcb56"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>442706e61b1240108ed631d7dc4bcb56</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:55</sys_created_on>
-        <sys_id>042706e61b1240108ed631d7dc4bcb57</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:55</sys_updated_on>
-        <table>var__m_sys_hub_action_input_99614f80739433000fba78ba4cf6a796</table>
-        <value>Payment_Method__c={{Created or Updated_1.current.payment_method}}^Category__c={{Created or Updated_1.current.category}}^Type__c={{Created or Updated_1.current.type}}^Subcategory__c={{Created or Updated_1.current.subcategory}}^Date__c={{Created or Updated_1.current.date}}^Number__c={{Created or Updated_1.current.number}}^Amount__c={{Created or Updated_1.current.amount}}^Details__c={{Created or Updated_1.current.details}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>object</field>
-        <id>442706e61b1240108ed631d7dc4bcb56</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-15 11:34:55</sys_created_on>
-        <sys_id>c42706e61b1240108ed631d7dc4bcb57</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-15 11:34:55</sys_updated_on>
-        <table>var__m_sys_hub_action_input_99614f80739433000fba78ba4cf6a796</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=3717c2e61b1240108ed631d7dc4bcbd7^sys_idNOT IN4c2706e61b1240108ed631d7dc4bcb57"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>

@@ -159,6 +159,26 @@
             <value>food</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>savings</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gold ETF</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-26 10:31:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c514f752fa6201051dad5f62799b66d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-26 10:31:42</sys_updated_on>
+            <value>gold_etf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>expense</dependent_value>
             <element>category</element>
             <hint/>
@@ -182,7 +202,7 @@
             <dependent_value>savings</dependent_value>
             <element>category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Insurance</label>
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
@@ -193,9 +213,29 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9541d0841b4400108ed631d7dc4bcb78</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-26 06:36:53</sys_updated_on>
+            <value>insurance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>expense</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insurance</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-26 06:28:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea88ccac2f81b01051dad5f62799b643</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-17 12:13:55</sys_updated_on>
+            <sys_updated_on>2021-06-26 06:28:59</sys_updated_on>
             <value>insurance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -537,6 +577,26 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-09-17 11:51:37</sys_updated_on>
             <value>tax</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>savings</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trading Stocks</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-02 13:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85d41c9f2f22e01051dad5f62799b6ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-02 13:48:59</sys_updated_on>
+            <value>trading_stocks</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>expense</dependent_value>

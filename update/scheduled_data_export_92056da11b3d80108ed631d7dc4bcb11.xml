@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_data_export">
     <scheduled_data_export action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <business_calendar/>
         <condition/>
         <conditional>false</conditional>
@@ -8,7 +8,7 @@
         <enable_delta_export>false</enable_delta_export>
         <entered_time/>
         <export_set display_value="Export Expense Manager">1624e9211b3d80108ed631d7dc4bcb4b</export_set>
-        <last_export_run>2021-02-12 10:07:43</last_export_run>
+        <last_export_run>2021-05-01 08:00:39</last_export_run>
         <name>Export Personal Expenses</name>
         <offset/>
         <offset_type>0</offset_type>
@@ -31,7 +31,7 @@
         <sys_created_on>2019-12-18 10:01:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>92056da11b3d80108ed631d7dc4bcb11</sys_id>
-        <sys_mod_count>215</sys_mod_count>
+        <sys_mod_count>255</sys_mod_count>
         <sys_name>Export Personal Expenses</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>scheduled_data_export_92056da11b3d80108ed631d7dc4bcb11</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 10:07:43</sys_updated_on>
+        <sys_updated_on>2021-05-01 08:47:39</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_data_export>
