@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_glide_certificates_glideencrypter">8994cbe3ff23201022f462aa453bf13d</crypto_module>
+        <crypto_spec/>
+        <granular_operation/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>94cee5d84fc712c094ac220f0310c711</owner>
+        <policy_name>AutoGen-script-46238ce69f01120034c6b6a0942e70a4-global.com_glide_certificates_glideencrypter</policy_name>
+        <result>reject</result>
+        <script_hash>cESZBa8RviJ9hNaVCaIpJjpRkzAzAELcQar9hS/jRsY=</script_hash>
+        <script_table>sys_script_include</script_table>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 10:06:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>109729752f12011051dad5f62799b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-script-46238ce69f01120034c6b6a0942e70a4-global.com_glide_certificates_glideencrypter</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_109729752f12011051dad5f62799b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 10:06:12</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="Security Support Common">f38c97005301120034c69816a11c081d</target_scope>
+        <target_script>46238ce69f01120034c6b6a0942e70a4</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

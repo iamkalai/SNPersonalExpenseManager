@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_widgets">
+    <sys_widgets action="DELETE">
+        <active>true</active>
+        <name>Personal Expense Manager Summary</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles/>
+        <script><![CDATA[function sections() {
+    return {
+        "Personal Expense Manager Summary": {
+            "name": "x_0586_personal_ex.PersonalExpenseSummary"
+        }
+    };
+}
+
+function render() {
+    var name = renderer.getPreferences().get("name");
+    var gf = new GlideForm(renderer.getGC(), name, 0);
+    gf.setDirect(true);
+    gf.setRenderProperties(renderer.getRenderProperties());
+    return gf.getRenderedPage();
+}
+
+function getEditLink() {
+    var page = renderer.getPreference('name');
+    var gr = new GlideRecord('sys_ui_page');
+    if (!gr.canWrite())
+        return "";
+    return "sys_ui_page.do?sysparm_query=name=" + page;
+}]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 14:18:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3abf36702ff2701051dad5f62799b680</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Personal Expense Manager Summary</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_widgets_3abf36702ff2701051dad5f62799b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 14:56:01</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sys_widgets_3abf36702ff2701051dad5f62799b680</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_widgets"&gt;&lt;sys_widgets action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;name&gt;Personal Expense Manager Summary&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;renderer/&gt;&lt;renderer_type&gt;javascript&lt;/renderer_type&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[function sections() {
+    return {
+        "Personal Expense Manager Summary": {
+            "name": "x_0586_personal_ex.PersonalExpenseSummary"
+        }
+    };
+}
+
+function render() {
+    var name = renderer.getPreferences().get("name");
+    var gf = new GlideForm(renderer.getGC(), name, 0);
+    gf.setDirect(true);
+    gf.setRenderProperties(renderer.getRenderProperties());
+    return gf.getRenderedPage();
+}
+
+function getEditLink() {
+    var page = renderer.getPreference('name');
+    var gr = new GlideRecord('sys_ui_page');
+    if (!gr.canWrite())
+        return "";
+    return "sys_ui_page.do?sysparm_query=name=" + page;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_widgets&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-22 14:18:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;3abf36702ff2701051dad5f62799b680&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Personal Expense Manager Summary&lt;/sys_name&gt;&lt;sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Personal Expense Manager"&gt;ee83c8481bc000108ed631d7dc4bcbec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_widgets_3abf36702ff2701051dad5f62799b680&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-22 14:56:01&lt;/sys_updated_on&gt;&lt;top_level_category&gt;false&lt;/top_level_category&gt;&lt;/sys_widgets&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-948387098</payload_hash>
+        <record_name>Personal Expense Manager Summary</record_name>
+        <reverted_from/>
+        <source>d2e614f51b2200108ed631d7dc4bcb46</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 14:56:01</sys_created_on>
+        <sys_id>fb78c3b02f36701051dad5f62799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c0e01a5a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 14:56:01</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>7378c3b02f36701028846297b6d94060</update_guid>
+        <update_guid_history>7378c3b02f36701028846297b6d94060:-948387098,2a4807b050367010ccc8f01b43da5647:-961472601,7c97c370fa36701044355e2dfeca275f:1287930003,9a56cbf8f7f27010f821b9fa2efbad69:-1320887900,8316037cf7f27010b14c68ef5abb29fc:856336609,68a5cb7c86f2701055cf4088e84928e0:-1320887900,400583f8caf270100954666fa6f44850:279200004,0194cfb83bf2701047c70f9fdd61276a:-143249026,70d38f78fbf270107a6285bd67e67edb:514086340,3e824fb422f27010ef4235dfa6e5bf92:-1175905810,d0b0cbb048f270103e0c87de98294470:1932037630,e360c7305cf27010d6b35e4932f1e3be:-1220728151,4def367046f270102e95f753f9f33d10:514086340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 14:57:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_widgets">sys_widgets</sys_db_object>
+        <sys_id>99d85a1a6c834275a04429c3b3585421</sys_id>
+        <sys_metadata>3abf36702ff2701051dad5f62799b680</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Expense Manager Summary</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sys_widgets_3abf36702ff2701051dad5f62799b680</sys_update_name>
+        <sys_update_version display_value="sys_widgets_3abf36702ff2701051dad5f62799b680">fb78c3b02f36701051dad5f62799b660</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 14:57:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

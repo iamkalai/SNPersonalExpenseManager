@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_0586_personal_ex.Audience for appPersonal Expense Manager</api_name>
+        <description/>
+        <name>Audience for appPersonal Expense Manager</name>
+        <roles>a4d34c801b0000108ed631d7dc4bcb2c,58d340c01b0000108ed631d7dc4bcb6f</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-11 16:30:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>34a56ea52fba851051dad5f62799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for appPersonal Expense Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_ux_applicability_34a56ea52fba851051dad5f62799b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-11 16:30:18</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

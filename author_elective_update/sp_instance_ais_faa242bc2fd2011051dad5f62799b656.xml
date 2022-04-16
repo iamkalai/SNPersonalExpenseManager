@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f69202bc2fd2011051dad5f62799b64c</sp_column>
+        <sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:30:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>faa242bc2fd2011051dad5f62799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_instance_ais_faa242bc2fd2011051dad5f62799b656</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:30:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=faa242bc2fd2011051dad5f62799b656"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_instance_ais_faa242bc2fd2011051dad5f62799b656</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">f69202bc2fd2011051dad5f62799b64c</sp_column><sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-15 09:30:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>faa242bc2fd2011051dad5f62799b656</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sp_instance_ais_faa242bc2fd2011051dad5f62799b656</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-15 09:30:41</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=faa242bc2fd2011051dad5f62799b656"/></record_update>]]></payload>
+        <payload_hash>-208702896</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d2e614f51b2200108ed631d7dc4bcb46</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:30:42</sys_created_on>
+        <sys_id>8fa2c2bc2fd2011051dad5f62799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8cea57420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:30:42</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>87a2c2bcf0d20110628cbac1cfba5b89</update_guid>
+        <update_guid_history>87a2c2bcf0d20110628cbac1cfba5b89:-208702896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-03-15 15:07:46">a6444e702f16011051dad5f62799b6db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:37:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>2d14501da4b44a5492f735ed8ee9a8e4</sys_id>
+        <sys_metadata>faa242bc2fd2011051dad5f62799b656</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_faa242bc2fd2011051dad5f62799b656</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_faa242bc2fd2011051dad5f62799b656">8fa2c2bc2fd2011051dad5f62799b689</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:37:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

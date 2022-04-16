@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Expense Manager Index - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="expense_manager_index">e38be3c31b8800108ed631d7dc4bcb74</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:30:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ae92c67c2fd2011051dad5f62799b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Manager Index - Container 1</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sp_container_ae92c67c2fd2011051dad5f62799b6c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:30:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
+        <file_path/>
+        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
+        <instance_name>dev21998</instance_name>
+        <name>sp_container_ae92c67c2fd2011051dad5f62799b6c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Expense Manager Index - Container 1</name><order>1</order><sp_page display_value="expense_manager_index">e38be3c31b8800108ed631d7dc4bcb74</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-15 09:30:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ae92c67c2fd2011051dad5f62799b6c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expense Manager Index - Container 1</sys_name><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sp_container_ae92c67c2fd2011051dad5f62799b6c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-15 09:30:23</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1293581049</payload_hash>
+        <record_name>Expense Manager Index - Container 1</record_name>
+        <reverted_from/>
+        <source>d2e614f51b2200108ed631d7dc4bcb46</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:30:24</sys_created_on>
+        <sys_id>e69202bc2fd2011051dad5f62799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8cea10150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:30:24</sys_updated_on>
+        <type>Container</type>
+        <update_guid>ee9202bc42d20110717b0a6ab6245b48</update_guid>
+        <update_guid_history>ee9202bc42d20110717b0a6ab6245b48:1293581049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-03-15 15:10:49">43f44af02f16011051dad5f62799b67b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 09:40:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>295d7b4abaa541ada50e8f508424da21</sys_id>
+        <sys_metadata>ae92c67c2fd2011051dad5f62799b6c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Manager Index - Container 1</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
+        <sys_update_name>sp_container_ae92c67c2fd2011051dad5f62799b6c6</sys_update_name>
+        <sys_update_version display_value="sp_container_ae92c67c2fd2011051dad5f62799b6c6">e69202bc2fd2011051dad5f62799b649</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 09:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

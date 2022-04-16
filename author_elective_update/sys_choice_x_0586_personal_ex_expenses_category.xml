@@ -282,7 +282,7 @@
             <dependent_value>savings</dependent_value>
             <element>category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Mutual Fund</label>
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
@@ -293,9 +293,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0f0110041b4400108ed631d7dc4bcbb8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-17 12:12:56</sys_updated_on>
+            <sys_updated_on>2021-12-02 09:44:39</sys_updated_on>
             <value>mutual_fund</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -317,6 +317,46 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-07-14 10:21:54</sys_updated_on>
             <value>mutual_fund</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>savings</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MF - Debt</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-02 09:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cf963ef2f48011051dad5f62799b62e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-02 09:43:56</sys_updated_on>
+            <value>mutual_fund_debt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>savings</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MF - Equity</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-02 09:43:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fb9afaf2f48011051dad5f62799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-02 09:43:00</sys_updated_on>
+            <value>mutual_fund_equity</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>savings</dependent_value>

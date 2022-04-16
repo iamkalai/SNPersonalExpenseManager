@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Expenses" max_length="40" name="x_0586_personal_ex_expenses" sizeclass="9806" text_index="true" type="collection">
+    <element label="Expenses" max_length="40" name="x_0586_personal_ex_expenses" sizeclass="10099" text_index="true" type="collection">
         <element label="Amount" max_length="15" name="amount" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal" dependent="type" dependent_on_field="type" label="Category" max_length="40" name="category" type="string" use_dependent_field="true">
             <choice>
@@ -16,7 +16,9 @@
                 <element dependent_value="expense" inactive_on_update="false" label="Insurance" value="insurance"/>
                 <element dependent_value="income" inactive_on_update="false" label="Interest" value="interest"/>
                 <element dependent_value="savings" inactive_on_update="false" label="Jewel" value="jewel"/>
-                <element dependent_value="savings" inactive_on_update="false" label="Mutual Fund" value="mutual_fund"/>
+                <element dependent_value="savings" inactive_on_update="false" label="MF - Debt" value="mutual_fund_debt"/>
+                <element dependent_value="savings" inactive_on_update="false" label="MF - Equity" value="mutual_fund_equity"/>
+                <element dependent_value="savings" inactive="true" inactive_on_update="true" label="Mutual Fund" value="mutual_fund"/>
                 <element dependent_value="income" inactive_on_update="false" label="Mutual Fund" value="mutual_fund"/>
                 <element dependent_value="savings" inactive_on_update="false" label="NPS" value="nps"/>
                 <element dependent_value="savings" inactive_on_update="false" label="NPS-2" value="nps2"/>
@@ -74,6 +76,7 @@
                 <element dependent_value="salary" inactive_on_update="false" label="Part Time" value="part_time"/>
                 <element dependent_value="other" inactive_on_update="false" label="Refund" value="refund"/>
                 <element dependent_value="other" inactive_on_update="false" label="Reward" value="reward"/>
+                <element dependent_value="insurance" inactive_on_update="false" label="Term" value="term"/>
                 <element dependent_value="stocks" inactive_on_update="false" label="Trading" value="trading"/>
                 <element dependent_value="other" inactive_on_update="false" label="Training" value="training"/>
                 <element dependent_value="food" inactive_on_update="false" label="All Food" sequence="0" value="all_food"/>

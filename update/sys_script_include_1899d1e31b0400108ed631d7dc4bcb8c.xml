@@ -17,14 +17,15 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
     overallSummary: function() {
         var summary = {};
         summary.adjustBook = parseInt(gs.getProperty('x_0586_personal_ex.adjust.book')); //property holds the missing money to balance the book.
+        summary.summaryUnbilledCCExpense = this.getUnbilledCCExpense();
         summary.saving = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings');
         summary.income = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income');
         summary.expense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense');
         summary.lending = this.getTotal('x_0586_personal_ex_expenses', 'category', 'amount', 'type=debt^category=lend');
-        summary.balance = parseInt(summary.income - summary.saving - summary.expense - summary.lending + summary.adjustBook);
+        summary.balance = parseInt(summary.income - summary.saving - summary.expense - summary.lending - summary.summaryUnbilledCCExpense + summary.adjustBook);
         summary.fd = this.getTotal('x_0586_personal_ex_expenses', 'category', 'amount', 'type=savings^category=fd');
         summary.todayExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
-		summary.yesterdayExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONYesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()');
+        summary.yesterdayExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONYesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()');
         summary.weekExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()');
         summary.monthExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
         summary.monthSaving = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^category!=fd^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
@@ -52,6 +53,21 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         return total;
     },
 
+    getUnbilledCCExpense: function() {
+        var total = 0;
+        var billingDate = gs.dateGenerate(new GlideDateTime().getYearLocalTime() + "-" + new GlideDateTime().getMonthLocalTime() + "-09", "end");
+
+        var getSum = new GlideAggregate("x_0586_personal_ex_expenses");
+        getSum.addEncodedQuery("type=expense^date>" + billingDate + "^payment_method=credit");
+        getSum.addAggregate("SUM", "amount");
+        getSum.groupBy("type");
+        getSum.query();
+        while (getSum.next()) {
+            total = getSum.getAggregate("SUM", "amount");
+        }
+        return total;
+    },
+
     nil: function(item) {
         return (item == null) || (typeof item == 'undefined') || ('' == '' + item);
     },
@@ -63,7 +79,7 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_created_on>2019-09-28 14:38:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1899d1e31b0400108ed631d7dc4bcb8c</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>PersonalExpenseManagerHelper</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -71,6 +87,6 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_script_include_1899d1e31b0400108ed631d7dc4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-23 07:05:27</sys_updated_on>
+        <sys_updated_on>2021-09-22 13:34:17</sys_updated_on>
     </sys_script_include>
 </record_update>

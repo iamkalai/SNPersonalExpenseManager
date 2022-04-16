@@ -2,9 +2,9 @@
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>SUM</aggregate>
-        <aggregation_source/>
+        <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
-        <apply_alias>true</apply_alias>
+        <apply_alias>false</apply_alias>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
@@ -13,7 +13,7 @@
         <chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color>
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
-        <chart_height/>
+        <chart_height>450</chart_height>
         <chart_size>large</chart_size>
         <chart_subtitle/>
         <chart_subtitle_color/>
@@ -25,17 +25,17 @@
         <chart_title_style>normal</chart_title_style>
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
-        <chart_width/>
+        <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>category</column>
+        <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config/>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -49,7 +49,7 @@
         <field_list>category,subcategory,amount</field_list>
         <filter table="x_0586_personal_ex_expenses">dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
         </filter>
-        <formatting_configuration/>
+        <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -80,14 +80,14 @@
         <report_drilldown/>
         <report_source display_value="Personal Expense Manager - Expense (Expenses)">370cb5bc1b8c04108ed631d7dc4bcbb4</report_source>
         <roles>x_0586_personal_ex.personal_expense_manager_user</roles>
-        <row>type</row>
+        <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color/>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -99,16 +99,16 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
-        <source_type>table</source_type>
+        <source_type>source</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>amount</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-18 11:31:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>861195901b8800108ed631d7dc4bcbb5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Today's Expense</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -116,13 +116,13 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_report_861195901b8800108ed631d7dc4bcbb5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-21 19:16:51</sys_updated_on>
+        <sys_updated_on>2021-09-22 15:40:03</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Today's Expense</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
+        <trend_field/>
         <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
@@ -135,7 +135,7 @@
         <x_axis_grid_dotted>false</x_axis_grid_dotted>
         <x_axis_grid_width>1</x_axis_grid_width>
         <x_axis_label_bold>false</x_axis_label_bold>
-        <x_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_label_color>
+        <x_axis_label_color/>
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_label_tilt>0</x_axis_label_tilt>
         <x_axis_opposite>false</x_axis_opposite>
@@ -150,7 +150,7 @@
         <y_axis_grid_dotted>false</y_axis_grid_dotted>
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>false</y_axis_label_bold>
-        <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
+        <y_axis_label_color/>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>

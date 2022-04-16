@@ -3,15 +3,28 @@
         <css_variables/>
         <default>false</default>
         <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="expense_manager_index">e38be3c31b8800108ed631d7dc4bcb74</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page/>
-        <logo/>
+        <logo>88111ffc2f5e011051dad5f62799b6c9</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
-        <quick_start_config/>
+        <quick_start_config>[{
+	"tagline": {
+		"table" : "sp_instance",
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",
+		"field" : "title"
+	},
+	"hero_background": {
+		"table" : "sp_container",
+		"sys_id" : "be98a8d2cb20020000f8d856634c9c63",
+		"field" : "background_image"
+	},
+	"readonly_variable_editor": "false"
+}]</quick_start_config>
         <sc_catalog/>
         <sc_catalog_page/>
         <sc_category_page/>
@@ -25,7 +38,7 @@
         <sys_created_on>2019-09-27 11:48:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7d1b2b071b8800108ed631d7dc4bcbaf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Personal Expense Manager</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -33,11 +46,51 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sp_portal_7d1b2b071b8800108ed631d7dc4bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-27 14:22:09</sys_updated_on>
+        <sys_updated_on>2022-03-15 15:13:12</sys_updated_on>
         <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>Personal Expense Manager</title>
         <ts_index_group/>
         <url_suffix>pem</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=7d1b2b071b8800108ed631d7dc4bcbaf"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#63bfe9</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <hash>2df58dcdc833f469d8c0c76c467065e980e549979a3f27ff41dcb647e7f0b864</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>1004</size_bytes>
+        <size_compressed>1027</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 15:13:11</sys_created_on>
+        <sys_id>88111ffc2f5e011051dad5f62799b6c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 15:13:12</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>7d1b2b071b8800108ed631d7dc4bcbaf</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="88111ffc2f5e011051dad5f62799b6c9">88111ffc2f5e011051dad5f62799b6c9</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 15:13:11</sys_created_on>
+        <sys_id>c8111ffc2f5e011051dad5f62799b6c9</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AewDE/yJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAJcEhZcwAACxMAAAsTAQCanBgAAAOeSURBVFiF7ZdbaB1VFIa/dTIktCpUjadtgpckXtOCjRWKwSYPpiVWwSgKPqm0D001oQ/FIIIvgkJOQQgtXkDUCoqolPgQDMZaiKEg0trY1GIoRK0aSlLBS9q57Rkf5rZn5qQHOdHz4uLA2bNm9v7/9a+1bwLw8qLvUwN7vlFEagUeWaGW4ACG5/sIABL9/lsCruuH8H6agEjQDh2SuOMnWQG2huN4qcEigIhQ6l2sUpZs+C5uk2kvT9iwbIWIPrjWUVMh+c8oExEWPwciUf/l1AUM21axI1EhXQ/6c0xEG0S0zpLqF5GLBQmxEnUN01ZBVBp4AqIRiAeX+J1OMJfCjJrDrQ08N2fn1DVMK0sgQ0JLjYiWhmw7C64Bjdy+ip1HzvDWfXew+9iPXNG4Nu5jmKaKQfUoL126yOGeZqq1/pN/0lM6xOdDT7Jn+g/e6LyRZ2aWNAKWKhv54Z5mHv1iASlIKlK9BnTCiSLplBzasoYnlu5n+8FRPhvoY+fXvyOFpOYM01TpnIrw6Y51dL16lKta22N/Pv/Z1Eiu/WH3tTw+ucgHXUUe+6uDHe9OcXXbhhSedH30k5+eBcLRR6qXfvvoHOa575kc7KVv4jyj29by8JEFrT4kVMDKT8NqbdsnvzDR18Lx+SL3vv4lU/1b6R2b58LJSa67qzs1CwqmrbAshWUrTEth2V5V4B2lcSYeaqbr43MU60ym+rfS+eYJxh9Yj217mGaAY5oupqUwbDtZiqO8VmPfDPVy58gxpvd2suW9H7gwVuLs+8MA2E4Ark/bgIBeTKHd/MoJ6hpWV1yW9SVZCnWc2tXG9N5ONh44zszgZjbZu+l4+yxLvy3guYHaehEajltuMwLHBWWEPgDxyxCJ1v+g0+zTbdx68DtmB9qZGdzMbQe+pVC/ChFwXB/PActWqaAM100U0Bm4roc4Hj/va7+s5DeNnIFogwJmB4Lvr39hnPpiCzgeAliOh7gKy1GpKRzE6EN8LgtPaMrzKXg+TftPpxEzZRJEnz7VNb/0FXXX3ICurusoxPUJtv9EReOy4QG/Pruh0icANO0/nZCtv5LgoJNsw64KAor9IbFlCfj2RWhYnVfgn1qo7tiuTTw4PIfnpdUqeyhtKp3i/Ivd1QFn7J6WNTS03p3zl1dACjTueYfF155aMQLFfaMY627JQ60vzVS4F6zEtWH51a1iEVa9NFawml9M/idQcwICUHkm/Ds2P7RR/gaiiD1CVY+rOwAAAABJRU5ErkJgghwJAIHsAwAA</data>
+        <length>1356</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="88111ffc2f5e011051dad5f62799b6c9">88111ffc2f5e011051dad5f62799b6c9</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 15:13:11</sys_created_on>
+        <sys_id>4c111ffc2f5e011051dad5f62799b6c9</sys_id>
+    </sys_attachment_doc>
 </record_update>

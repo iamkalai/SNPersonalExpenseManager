@@ -97,7 +97,7 @@
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
-        <show_legend>true</show_legend>
+        <show_legend>false</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
@@ -110,7 +110,7 @@
         <sys_created_on>2019-09-18 12:10:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b90a11141bc800108ed631d7dc4bcb64</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Expense - Last 12 Months (Only Expenses)</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -118,7 +118,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_report_b90a11141bc800108ed631d7dc4bcb64</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-15 17:39:25</sys_updated_on>
+        <sys_updated_on>2021-09-22 15:49:06</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Expense - Last 12 Months (Only Expenses)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

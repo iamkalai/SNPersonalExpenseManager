@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>This add portal page to UI page&#13;
+No longer required</description>
+        <direct>true</direct>
+        <endpoint>x_0586_personal_ex_PersonalExpenseSummary.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style>
+        #preview{
+            text-align: center;
+        }
+    </style>
+
+     <div id="preview">     
+       <iframe height="500" width="850" scrolling="no" src="/pem?id=personal_expense_manager_summary" />
+    </div>
+</j:jelly>]]></html>
+        <name>PersonalExpenseSummary</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 14:16:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>281d7ef82fb2701051dad5f62799b6e6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>PersonalExpenseSummary</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_ui_page_281d7ef82fb2701051dad5f62799b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 15:05:52</sys_updated_on>
+    </sys_ui_page>
+</record_update>

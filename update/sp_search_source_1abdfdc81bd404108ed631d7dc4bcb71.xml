@@ -8,7 +8,7 @@
   
   return results;
 })(query);]]></data_fetch_script>
-        <display_fields>type,category,subcategory,details</display_fields>
+        <display_fields>type,category,subcategory,amount,date,details</display_fields>
         <enable_typeahead>true</enable_typeahead>
         <facet_generation_script><![CDATA[(function(query, facetService, searchResults) {
 	/* Calculate your facets here using facetService */
@@ -19,9 +19,9 @@
         <id>search_expenses</id>
         <is_scripted_source>false</is_scripted_source>
         <name>Expenses</name>
-        <page display_value="list">b574e51147132100ba13a5554ee4903e</page>
+        <page display_value="form">ed5f8ec347730200ba13a5554ee49046</page>
         <pagination_supported>true</pagination_supported>
-        <primary_display_field>amount</primary_display_field>
+        <primary_display_field>details</primary_display_field>
         <roles/>
         <search_page_template><![CDATA[<div>
   <a href="?id=form&sys_id={{item.sys_id}}&table={{item.table}}" class="h4 text-primary m-b-sm block">
@@ -38,7 +38,7 @@
         <sys_created_on>2019-09-30 06:25:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1abdfdc81bd404108ed631d7dc4bcb71</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Expenses</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sp_search_source_1abdfdc81bd404108ed631d7dc4bcb71</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 06:46:58</sys_updated_on>
+        <sys_updated_on>2022-03-15 14:59:03</sys_updated_on>
         <typeahead_glyph>search</typeahead_glyph>
         <typeahead_template/>
     </sp_search_source>

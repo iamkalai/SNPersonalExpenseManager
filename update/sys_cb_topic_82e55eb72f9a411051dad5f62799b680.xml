@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Create a new personal grocery entry</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.39",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "92fc08623f4242a286e990afc3cbd69f": {
+          "id": "92fc08623f4242a286e990afc3cbd69f",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3f73e43147824aef9ed1e915a9d5f439": {
+          "id": "3f73e43147824aef9ed1e915a9d5f439",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "928fd3ca4a054dd0a2fa850624333763": {
+          "id": "928fd3ca4a054dd0a2fa850624333763",
+          "stepType": "Prompt",
+          "name": "Input amount",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter the amount"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b28c60161ebb430ab3b35ad0216e63bd",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "cbd5e6b0e17d4faf8139429595100bd5": {
+          "id": "cbd5e6b0e17d4faf8139429595100bd5",
+          "stepType": "CrudAction",
+          "name": "Create expense",
+          "template": "type=expense^category=personal^subcategory=grocery^payment_method=cash^amount={{vaInputs.input_amount}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "99df50f579c243929a75ed2868c33479"
+        },
+        "80a4303b5b4a4a4d9cd6464d41d05768": {
+          "id": "80a4303b5b4a4a4d9cd6464d41d05768",
+          "stepType": "LinkOutput",
+          "name": "Expense confirmation",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "/x_0586_personal_ex_expenses.do?sys_id="
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.create_expense}}",
+                      "displayValue": "Input Variables➛Create Expense"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.create_expense.number}}",
+                      "displayValue": "Input Variables➛Create Expense➛Number"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "New Expense"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "a578026de306463180aafa33addfbfeb",
+          "edgeType": "Edge",
+          "source": "92fc08623f4242a286e990afc3cbd69f",
+          "target": "928fd3ca4a054dd0a2fa850624333763",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "89f33899fd624eaebc3b5e4596a148a0",
+          "edgeType": "Edge",
+          "source": "928fd3ca4a054dd0a2fa850624333763",
+          "target": "cbd5e6b0e17d4faf8139429595100bd5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "39311ef9389e427b82d37b40a8767546",
+          "edgeType": "Edge",
+          "source": "cbd5e6b0e17d4faf8139429595100bd5",
+          "target": "80a4303b5b4a4a4d9cd6464d41d05768",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a33891e672bb4996b07d60ff1303b18a",
+          "edgeType": "Edge",
+          "source": "80a4303b5b4a4a4d9cd6464d41d05768",
+          "target": "3f73e43147824aef9ed1e915a9d5f439",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b28c60161ebb430ab3b35ad0216e63bd": {
+      "id": "b28c60161ebb430ab3b35ad0216e63bd",
+      "name": "input_amount",
+      "label": "Input Amount",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTY0ODE0NzA0MTMzMyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "99df50f579c243929a75ed2868c33479": {
+      "id": "99df50f579c243929a75ed2868c33479",
+      "name": "create_expense",
+      "label": "Create Expense",
+      "varType": "reference",
+      "table": "x_0586_personal_ex_expenses",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Create New Grocery,grocery,new grocery</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Create New Grocery</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>x_0586_personal_ex.personal_expense_manager_admin,x_0586_personal_ex.personal_expense_manager_user</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-24 18:36:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>82e55eb72f9a411051dad5f62799b680</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create New Grocery</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_cb_topic_82e55eb72f9a411051dad5f62799b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-24 19:03:07</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=82e55eb72f9a411051dad5f62799b680"/>
+</record_update>
