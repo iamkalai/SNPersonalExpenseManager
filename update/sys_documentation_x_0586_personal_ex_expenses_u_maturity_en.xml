@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_maturity" label="Maturity" language="en" table="x_0586_personal_ex_expenses">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_maturity</element>
+            <help/>
+            <hint/>
+            <label>Maturity</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <plural>Maturities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-04-17 17:26:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f9fb656b2f3ac11051dad5f62799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Maturity</sys_name>
+            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+            <sys_update_name>sys_documentation_x_0586_personal_ex_expenses_u_maturity_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-04-17 17:26:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
-    <sys_report action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_drill">
+    <sys_report_drill action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>SUM</aggregate>
-        <aggregation_source>no_override</aggregation_source>
+        <aggregation_source/>
         <allow_data_label_overlap>false</allow_data_label_overlap>
-        <apply_alias>false</apply_alias>
+        <apply_alias>true</apply_alias>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
@@ -13,7 +13,7 @@
         <chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color>
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
-        <chart_height>450</chart_height>
+        <chart_height/>
         <chart_size>large</chart_size>
         <chart_subtitle/>
         <chart_subtitle_color/>
@@ -25,11 +25,11 @@
         <chart_title_style>normal</chart_title_style>
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
-        <chart_width>600</chart_width>
+        <chart_width/>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>amount</column>
+        <column>date</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Kalaiarasan P">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -40,17 +40,15 @@
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
-        <display_grid>false</display_grid>
+        <display_grid>true</display_grid>
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>category</field>
-        <field_list>type,category,subcategory,amount,date,details,u_maturity,status,sys_updated_on,payment_method</field_list>
-        <filter table="x_0586_personal_ex_expenses">category=nps^dateONLast 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()<item display_value="NPS" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="nps"/>
-            <item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="Last 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()"/>
-        </filter>
-        <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
+        <field_list/>
+        <filter/>
+        <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -74,14 +72,14 @@
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
         <orderby_list/>
-        <other_threshold>-1</other_threshold>
+        <other_threshold>-2</other_threshold>
         <others>true</others>
-        <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles>x_0586_personal_ex.personal_expense_manager_user</roles>
-        <row>amount</row>
+        <roles>snc_internal</roles>
+        <row>date</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -96,7 +94,7 @@
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
-        <show_legend>false</show_legend>
+        <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
@@ -104,22 +102,22 @@
         <start_time/>
         <style_config/>
         <sumfield>amount</sumfield>
-        <sys_class_name>sys_report</sys_class_name>
+        <sys_class_name>sys_report_drill</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-18 11:09:54</sys_created_on>
+        <sys_created_on>2022-04-17 17:36:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a53cc5181b4800108ed631d7dc4bcb4d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Savings (NPS) - Last 12 Months</sys_name>
+        <sys_id>3d4e29af2f3ac11051dad5f62799b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Savings By Month</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sys_report_a53cc5181b4800108ed631d7dc4bcb4d</sys_update_name>
+        <sys_update_name>sys_report_drill_3d4e29af2f3ac11051dad5f62799b603</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 17:50:56</sys_updated_on>
+        <sys_updated_on>2022-04-17 17:36:17</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
-        <title>Savings (NPS) - Last 12 Months</title>
+        <title>Savings By Month</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -129,14 +127,14 @@
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>GLOBAL</user>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>
         <x_axis_grid_width>1</x_axis_grid_width>
         <x_axis_label_bold>false</x_axis_label_bold>
-        <x_axis_label_color/>
+        <x_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_label_color>
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_label_tilt>0</x_axis_label_tilt>
         <x_axis_opposite>false</x_axis_opposite>
@@ -151,7 +149,7 @@
         <y_axis_grid_dotted>false</y_axis_grid_dotted>
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>false</y_axis_label_bold>
-        <y_axis_label_color/>
+        <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>
@@ -160,5 +158,5 @@
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
-    </sys_report>
+    </sys_report_drill>
 </record_update>

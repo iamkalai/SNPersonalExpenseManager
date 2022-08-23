@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_maturity</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-17 17:27:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>174c61ab2f3ac11051dad5f62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_maturity</sys_name>
+        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+        <sys_update_name>sys_ui_policy_action_174c61ab2f3ac11051dad5f62799b6ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-17 17:27:49</sys_updated_on>
+        <table>x_0586_personal_ex_expenses</table>
+        <ui_policy display_value="Show Maturity if FD">b10c296b2f3ac11051dad5f62799b614</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

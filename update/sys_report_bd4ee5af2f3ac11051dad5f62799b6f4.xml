@@ -9,8 +9,8 @@
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
         <calendar/>
-        <chart_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</chart_background_color>
-        <chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color>
+        <chart_background_color/>
+        <chart_border_color/>
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
         <chart_height>450</chart_height>
@@ -47,8 +47,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>category</field>
         <field_list>type,category,subcategory,amount,date,details,u_maturity,status,sys_updated_on,payment_method</field_list>
-        <filter table="x_0586_personal_ex_expenses">category=nps^dateONLast 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()<item display_value="NPS" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="nps"/>
-            <item endquery="false" field="date" goto="false" newquery="false" operator="ON" or="false" value="Last 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()"/>
+        <filter table="x_0586_personal_ex_expenses">category=fd^type=savings<item display_value="FD" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="fd"/>
+            <item display_value="Savings" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="savings"/>
         </filter>
         <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -56,13 +56,13 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>month</interval>
+        <interval>quarter</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
-        <legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color>
-        <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
+        <legend_background_color/>
+        <legend_border_color/>
         <legend_border_radius>0</legend_border_radius>
         <legend_border_width>1</legend_border_width>
         <legend_horizontal_alignment>center</legend_horizontal_alignment>
@@ -76,11 +76,11 @@
         <orderby_list/>
         <other_threshold>-1</other_threshold>
         <others>true</others>
-        <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown/>
+        <report_drilldown display_value="Savings By Month">3d4e29af2f3ac11051dad5f62799b603</report_drilldown>
         <report_source/>
-        <roles>x_0586_personal_ex.personal_expense_manager_user</roles>
+        <roles/>
         <row>amount</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -106,30 +106,30 @@
         <sumfield>amount</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-18 11:09:54</sys_created_on>
+        <sys_created_on>2022-04-17 17:36:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a53cc5181b4800108ed631d7dc4bcb4d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Savings (NPS) - Last 12 Months</sys_name>
+        <sys_id>bd4ee5af2f3ac11051dad5f62799b6f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Savings (FDs)</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sys_report_a53cc5181b4800108ed631d7dc4bcb4d</sys_update_name>
+        <sys_update_name>sys_report_bd4ee5af2f3ac11051dad5f62799b6f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 17:50:56</sys_updated_on>
+        <sys_updated_on>2022-04-17 17:51:53</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
-        <title>Savings (NPS) - Last 12 Months</title>
+        <title>Savings (FDs)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>date</trend_field>
+        <trend_field>u_maturity</trend_field>
         <type>trend</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>GLOBAL</user>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
