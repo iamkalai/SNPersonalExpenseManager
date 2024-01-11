@@ -56,7 +56,7 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>quarter</interval>
+        <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -109,7 +109,7 @@
         <sys_created_on>2022-04-17 17:36:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bd4ee5af2f3ac11051dad5f62799b6f4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Savings (FDs)</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -117,7 +117,7 @@
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_report_bd4ee5af2f3ac11051dad5f62799b6f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-17 17:51:53</sys_updated_on>
+        <sys_updated_on>2023-05-03 07:19:13</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
         <title>Savings (FDs)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -47,8 +47,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>type,category,subcategory,amount,date,details,number,status,sys_updated_on,payment_method</field_list>
-        <filter table="x_0586_personal_ex_expenses">categoryINbusiness,mutual_fund,stocks^subcategoryINdividend,Investing^date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^detailsNOT LIKEDebt-<item display_value="business,mutual_fund,stocks" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="business,mutual_fund,stocks"/>
-            <item display_value="dividend,Investing" endquery="false" field="subcategory" goto="false" newquery="false" operator="IN" or="false" value="dividend,Investing"/>
+        <filter table="x_0586_personal_ex_expenses">categoryINmutual_fund,stocks^date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^detailsNOT LIKEDebt-<item display_value="mutual_fund,stocks" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="mutual_fund,stocks"/>
             <item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
             <item endquery="false" field="details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Debt-"/>
         </filter>
@@ -108,20 +107,20 @@
         <sumfield>amount</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-04 10:19:32</sys_created_on>
+        <sys_created_on>2023-08-24 15:34:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>4ad71d982fe1411051dad5f62799b65e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Trading Management - Monthly Investing Income</sys_name>
+        <sys_id>40d319aa47f0711086f73e7d826d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trading Management - Monthly Income</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sys_report_4ad71d982fe1411051dad5f62799b65e</sys_update_name>
+        <sys_update_name>sys_report_40d319aa47f0711086f73e7d826d4398</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-03 13:59:35</sys_updated_on>
+        <sys_updated_on>2023-08-24 15:34:37</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
-        <title>Trading Management - Monthly Investing Income</title>
+        <title>Trading Management - Monthly Income</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

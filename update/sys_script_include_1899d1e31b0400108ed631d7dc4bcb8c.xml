@@ -16,6 +16,9 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
 
     overallSummary: function() {
         var summary = {};
+        var savingSummary = [];
+        var library = new global.CommonLibraryFunctions();
+
         summary.adjustBook = parseInt(gs.getProperty('x_0586_personal_ex.adjust.book')); //property holds the missing money to balance the book.
         summary.summaryUnbilledCCExpense = this.getUnbilledCCExpense();
         summary.saving = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings');
@@ -23,17 +26,50 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         summary.expense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense');
         summary.lending = this.getTotal('x_0586_personal_ex_expenses', 'category', 'amount', 'type=debt^category=lend');
         summary.balance = parseInt(summary.income - summary.saving - summary.expense - summary.lending - summary.summaryUnbilledCCExpense + summary.adjustBook);
-        summary.fd = this.getTotal('x_0586_personal_ex_expenses', 'category', 'amount', 'type=savings^category=fd');
+
         summary.todayExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
         summary.yesterdayExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONYesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()');
         summary.weekExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()');
         summary.monthExpense = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
         summary.monthSaving = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^category!=fd^dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
-        summary.totalStockIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks');
+
+        summary.totalStockIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=mutual_fund^ORcategory=stocks^detailsNOT LIKEdebt');
+        summary.investingIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks^subcategory=Investing');
         summary.tradingIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks^subcategory=trading');
         summary.dividendIncome = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=income^category=stocks^subcategory=dividend');
-        summary.tradingLoss = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^category=business');
-        summary.tradingResult = summary.tradingLoss - summary.totalStockIncome;
+        summary.tradingLoss = this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=expense^category=business^subcategory=trading_loss');
+        summary.tradingResult = summary.totalStockIncome - summary.tradingLoss;
+
+        summary.investableSum = summary.saving + summary.balance;
+        this.investableSum = summary.investableSum;
+
+        summary.equityPercent = this.calculatePercent(this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^categoryINetf,mutual_fund_equity,stocks,trading_stocks'), this.investableSum);
+
+        var savingTypes = JSON.parse(library.getUnique({
+            "table": "x_0586_personal_ex_expenses",
+            "query": "type=savings",
+            "field": "category"
+        }));
+
+        for (var i = 0; i < savingTypes.result.length; i++) {
+            savingSummary.push(this.formatSavingSummary(this.getSavingCategoryDisplay(savingTypes.result[i]), 'type=savings^category=' + savingTypes.result[i]));
+        }
+
+        savingSummary.push({
+            "name": "Cash",
+            "amount": summary.balance,
+            "percent": this.calculatePercent(summary.balance, this.investableSum)
+        });
+
+        var cSavingSummary = [];
+        for (var j = 0; j < savingSummary.length; j++) {
+            if (savingSummary[j].amount != 0) {
+                cSavingSummary.push(savingSummary[j]);
+            }
+        }
+
+        summary.savingSummary = cSavingSummary;
+
         return (JSON.stringify(summary));
     },
 
@@ -72,6 +108,34 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         return (item == null) || (typeof item == 'undefined') || ('' == '' + item);
     },
 
+    calculatePercent: function(value, total) {
+        var percent = 0;
+        if (value != 0) {
+            percent = ((value * 100) / total).toFixed(2);
+        }
+        return percent;
+    },
+
+    formatSavingSummary: function(name, filter) {
+        var saving = this.getTotal('x_0586_personal_ex_expenses', 'category', 'amount', filter);
+        var savingPerc = this.calculatePercent(saving, this.investableSum);
+        return {
+            "name": name,
+            "amount": saving,
+            "percent": savingPerc
+        };
+    },
+
+    getSavingCategoryDisplay: function(choice) {
+        var library = new global.CommonLibraryFunctions();
+        var savingCategory = JSON.parse(library.getField({
+            "table": "sys_choice",
+            "query": "name=x_0586_personal_ex_expenses^inactive=false^element=category^dependent_value=savings^value=" + choice,
+            "field": "label"
+        }));
+        return savingCategory.result;
+    },
+
     type: 'PersonalExpenseManagerHelper'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
@@ -79,7 +143,7 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_created_on>2019-09-28 14:38:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1899d1e31b0400108ed631d7dc4bcb8c</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>PersonalExpenseManagerHelper</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
@@ -87,6 +151,6 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_script_include_1899d1e31b0400108ed631d7dc4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-22 13:34:17</sys_updated_on>
+        <sys_updated_on>2023-11-30 18:27:37</sys_updated_on>
     </sys_script_include>
 </record_update>
