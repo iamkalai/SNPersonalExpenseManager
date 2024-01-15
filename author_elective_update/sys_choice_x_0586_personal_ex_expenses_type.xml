@@ -1,88 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="DELETE" field="type" table="x_0586_personal_ex_expenses" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_0586_personal_ex_expenses" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_0586_personal_ex_expenses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 05:59:18</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
+            <sys_update_name>sys_choice_x_0586_personal_ex_expenses_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 05:59:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>expense</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:31:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 06:04:12</sys_updated_on>
+            <value>expense</value>
+        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>expense</label>
+            <label>Debt</label>
             <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
-            <sequence/>
+            <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-17 14:31:25</sys_created_on>
+            <sys_created_on>2019-09-17 14:39:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>27b038c41b4800108ed631d7dc4bcb95</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-17 14:31:25</sys_updated_on>
+            <sys_updated_on>2019-09-17 15:28:59</sys_updated_on>
+            <value>debt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>debt</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 05:59:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 06:02:45</sys_updated_on>
+            <value>debt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expense</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:39:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 15:29:31</sys_updated_on>
             <value>expense</value>
         </sys_choice>
-        <sys_choice_set action="DELETE">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
             <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Income</label>
+            <language>en</language>
             <name>x_0586_personal_ex_expenses</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
+            <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-17 14:31:25</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>ebb070081b4800108ed631d7dc4bcbab</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>type</sys_name>
-            <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-            <sys_update_name>sys_choice_x_0586_personal_ex_expenses_type</sys_update_name>
+            <sys_created_on>2019-09-17 14:39:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-17 14:31:25</sys_updated_on>
-        </sys_choice_set>
+            <sys_updated_on>2024-01-15 06:03:54</sys_updated_on>
+            <value>income</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>income</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 05:59:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 06:02:45</sys_updated_on>
+            <value>income</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Savings</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-17 14:39:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-17 15:35:40</sys_updated_on>
+            <value>savings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>savings</label>
+            <language>en</language>
+            <name>x_0586_personal_ex_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 05:59:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 06:02:45</sys_updated_on>
+            <value>savings</value>
+        </sys_choice>
     </sys_choice>
-    <sys_update_version action="INSERT_OR_UPDATE">
-        <action>DELETE</action>
-        <application display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</application>
-        <file_path/>
-        <instance_id>94cee5d84fc712c094ac220f0310c711</instance_id>
-        <instance_name>dev21998</instance_name>
-        <name>sys_choice_x_0586_personal_ex_expenses_type</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="type" table="x_0586_personal_ex_expenses" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>type</element><hint/><inactive>false</inactive><label>expense</label><language>en</language><name>x_0586_personal_ex_expenses</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-17 14:31:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>27b038c41b4800108ed631d7dc4bcb95</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-17 14:31:25</sys_updated_on><value>expense</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>type</element><name>x_0586_personal_ex_expenses</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-17 14:31:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ebb070081b4800108ed631d7dc4bcbab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>type</sys_name><sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope><sys_update_name>sys_choice_x_0586_personal_ex_expenses_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-17 14:31:25</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
-        <payload_hash>-318717363</payload_hash>
-        <record_name>Expenses.Type</record_name>
-        <reverted_from/>
-        <source>7683c8481bc000108ed631d7dc4bcbef</source>
-        <source_table>sys_update_set</source_table>
-        <state>previous</state>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-17 14:31:25</sys_created_on>
-        <sys_id>2bb070081b4800108ed631d7dc4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16d3fa29f7d0000001</sys_recorded_at>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 14:31:25</sys_updated_on>
-        <type>Choice list</type>
-        <update_guid>efb07008794800108c03999c6dbd88ac</update_guid>
-        <update_guid_history>efb07008794800108c03999c6dbd88ac:-318717363,a6a0bcc45b480010c5b08c92b9265398:-1968944185,6ea0bcc4de480010dfe9324eae8d0893:1436140077,2aa0bcc4fc480010879895f1c3527890:-1381119099,faf8c404d204001047250d40495c2a57:-447513113,b6f8c404ac04001079f043e57d12bf55:-1381119099,76f8c40496040010a0025ab5127c0253:-2096593341</update_guid_history>
-    </sys_update_version>
-    <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete/>
-        <sys_class_name>sys_metadata_delete</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-17 14:36:33</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>ebb070081b4800108ed631d7dc4bcbab</sys_id>
-        <sys_metadata>ebb070081b4800108ed631d7dc4bcbab</sys_metadata>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>type</sys_name>
-        <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
-        <sys_parent/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_scope_delete display_value="">a5a69e64a4ca4caca08a6256da6aa084</sys_scope_delete>
-        <sys_update_name>sys_choice_x_0586_personal_ex_expenses_type</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_0586_personal_ex_expenses_type">2bb070081b4800108ed631d7dc4bcbad</sys_update_version>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 14:36:33</sys_updated_on>
-    </sys_metadata_delete>
 </record_update>

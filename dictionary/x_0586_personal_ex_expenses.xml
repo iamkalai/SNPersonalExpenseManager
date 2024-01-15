@@ -138,9 +138,13 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="expense" label="Type" max_length="40" name="type" type="string">
             <choice>
+                <element inactive="true" inactive_on_update="true" label="expense" value="expense"/>
+                <element inactive="true" inactive_on_update="true" label="debt" sequence="0" value="debt"/>
                 <element inactive_on_update="false" label="Debt" sequence="0" value="debt"/>
                 <element inactive_on_update="false" label="Expense" sequence="0" value="expense"/>
+                <element inactive="true" inactive_on_update="true" label="income" sequence="0" value="income"/>
                 <element inactive_on_update="false" label="Income" sequence="0" value="income"/>
+                <element inactive="true" inactive_on_update="true" label="savings" sequence="0" value="savings"/>
                 <element inactive_on_update="false" label="Savings" sequence="0" value="savings"/>
             </choice>
         </element>
