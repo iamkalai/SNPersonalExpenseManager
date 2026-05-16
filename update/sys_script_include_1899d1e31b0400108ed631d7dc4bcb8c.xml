@@ -10,7 +10,9 @@
 var script = new PersonalExpenseManagerHelper();&#13;
 var summary = JSON.parse(script.overallSummary());&#13;
 gs.info(summary.tradingResult);</description>
+        <mobile_callable>false</mobile_callable>
         <name>PersonalExpenseManagerHelper</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var PersonalExpenseManagerHelper = Class.create();
 PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
@@ -42,8 +44,7 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
 
         summary.investableSum = summary.saving + summary.balance;
         this.investableSum = summary.investableSum;
-
-        summary.equityPercent = this.calculatePercent(this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^categoryINetf,mutual_fund_equity,stocks,trading_stocks'), this.investableSum);
+        summary.equityPercent = this.calculatePercent(this.getTotal('x_0586_personal_ex_expenses', 'type', 'amount', 'type=savings^categoryINetf,mutual_fund_equity,stocks,trading_stocks,basket'), this.investableSum);
 
         var savingTypes = JSON.parse(library.getUnique({
             "table": "x_0586_personal_ex_expenses",
@@ -141,16 +142,14 @@ PersonalExpenseManagerHelper.prototype = Object.extendsObject(global.AbstractAja
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-28 14:38:53</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>1899d1e31b0400108ed631d7dc4bcb8c</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>PersonalExpenseManagerHelper</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
         <sys_update_name>sys_script_include_1899d1e31b0400108ed631d7dc4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-30 18:27:37</sys_updated_on>
+        <sys_updated_on>2024-03-14 16:25:18</sys_updated_on>
     </sys_script_include>
 </record_update>

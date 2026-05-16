@@ -30,13 +30,13 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column/>
+        <column>amount</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <custom_config/>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -46,11 +46,10 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field/>
-        <field_list>type,category,subcategory,amount,date,details,number,status,sys_updated_on,payment_method</field_list>
-        <filter table="x_0586_personal_ex_expenses">categoryINmutual_fund,stocks^date&gt;javascript:gs.dateGenerate('2021-02-28','23:59:59')^detailsNOT LIKEDebt-<item display_value="mutual_fund,stocks" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="mutual_fund,stocks"/>
-            <item endquery="false" field="date" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2021-02-28','23:59:59')"/>
-            <item endquery="false" field="details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Debt-"/>
+        <field>type</field>
+        <field_list>type,category,subcategory,amount,details,date,payment_method,number,status</field_list>
+        <filter table="x_0586_personal_ex_expenses">categoryINbasket,etf,mutual_fund_equity,stocks^type=savings<item display_value="basket,etf,mutual_fund_equity,stocks" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="basket,etf,mutual_fund_equity,stocks"/>
+            <item display_value="Savings" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="savings"/>
         </filter>
         <formatting_configuration>{"table":"x_0586_personal_ex_expenses","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -81,17 +80,17 @@
         <others>false</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown/>
-        <report_source display_value="Personal Expense Manager - Income (Expenses)">fbcb31bc1b8c04108ed631d7dc4bcb23</report_source>
+        <report_drilldown display_value="Categories">bb30c438c3b232101d72190ed4013166</report_drilldown>
+        <report_source/>
         <roles/>
-        <row/>
+        <row>amount</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -99,33 +98,33 @@
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
-        <show_legend>true</show_legend>
+        <show_legend>false</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
-        <source_type>source</source_type>
+        <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield>amount</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-08-24 15:34:37</sys_created_on>
-        <sys_id>40d319aa47f0711086f73e7d826d4398</sys_id>
+        <sys_created_on>2026-01-29 17:50:19</sys_created_on>
+        <sys_id>e7304038c3b232101d72190ed401318e</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Trading Management - Monthly Income</sys_name>
+        <sys_name>Savings - Trend (Equity)</sys_name>
         <sys_package display_value="Personal Expense Manager" source="x_0586_personal_ex">ee83c8481bc000108ed631d7dc4bcbec</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Expense Manager">ee83c8481bc000108ed631d7dc4bcbec</sys_scope>
-        <sys_update_name>sys_report_40d319aa47f0711086f73e7d826d4398</sys_update_name>
+        <sys_update_name>sys_report_e7304038c3b232101d72190ed401318e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-02 15:26:28</sys_updated_on>
+        <sys_updated_on>2026-01-29 17:50:19</sys_updated_on>
         <table>x_0586_personal_ex_expenses</table>
-        <title>Trading Management - Monthly Income</title>
+        <title>Savings - Trend (Equity)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field>date</trend_field>
-        <type>line</type>
+        <type>spline</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
